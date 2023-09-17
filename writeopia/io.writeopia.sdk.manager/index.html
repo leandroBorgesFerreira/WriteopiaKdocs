@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>io.writeopia.sdk.manager</title>
+<link href="../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+<a href="../../index.html">
+<span>Writeopia</span>            </a>    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":writeopia:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageids="writeopia::io.writeopia.sdk.manager////PointingToDeclaration//-163490803">
+  <div class="breadcrumbs"><a href="../index.html">writeopia</a><span class="delimiter">/</span><span class="current">io.writeopia.sdk.manager</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="6845932%2FClasslikes%2F-163490803" anchor-label="ContentHandler" id="6845932%2FClasslikes%2F-163490803" data-filterable-set=":writeopia:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/release" data-filterable-set=":writeopia:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-content-handler/index.html"><span>Content</span><wbr><span><span>Handler</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="6845932%2FClasslikes%2F-163490803"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-content-handler/index.html">ContentHandler</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">focusableTypes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt;</span><span class="token operator"> = </span>setOf(
+        StoryTypes.TITLE.type.number,
+        StoryTypes.MESSAGE.type.number,
+        StoryTypes.H1.type.number,
+        StoryTypes.H2.type.number,
+        StoryTypes.H3.type.number,
+        StoryTypes.H4.type.number,
+        StoryTypes.CHECK_ITEM.type.number,
+        StoryTypes.UNORDERED_LIST_ITEM.type.number,
+    )<span class="token punctuation">, </span></span><span class="parameter ">stepsNormalizer<span class="token operator">: </span><a href="../io.writeopia.sdk.utils.alias.html#1286376529%2FClasslikes%2F-163490803">UnitsNormalizationMap</a><span class="token punctuation">, </span></span><span class="parameter ">lineBreakMap<span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span><a href="../../writeopia_models/io.writeopia.sdk.models.story/-story-type/index.html">StoryType</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="../../writeopia_models/io.writeopia.sdk.models.story/-story-type/index.html">StoryType</a><span class="token operator"> = </span>::defaultLineBreakMap</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Class dedicated to handle adding, deleting or changing StorySteps</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-599429064%2FClasslikes%2F-163490803" anchor-label="DocumentRepository" id="-599429064%2FClasslikes%2F-163490803" data-filterable-set=":writeopia:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/release" data-filterable-set=":writeopia:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-document-repository/index.html"><span>Document</span><wbr><span><span>Repository</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-599429064%2FClasslikes%2F-163490803"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-document-repository/index.html">DocumentRepository</a> : <a href="-document-update/index.html">DocumentUpdate</a></div><div class="brief "><p class="paragraph">DocumentRepository is the repository for using simple CRUD operations in <a href="../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a>. The implementations of this interface shouldn't control order (sorting) or oder configurations, those need to be passed as parameters.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="671359368%2FClasslikes%2F-163490803" anchor-label="DocumentTracker" id="671359368%2FClasslikes%2F-163490803" data-filterable-set=":writeopia:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/release" data-filterable-set=":writeopia:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-document-tracker/index.html"><span>Document</span><wbr><span><span>Tracker</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="671359368%2FClasslikes%2F-163490803"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-document-tracker/index.html">DocumentTracker</a></div><div class="brief "><p class="paragraph">Saves the document automatically based of content changes.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-595419111%2FClasslikes%2F-163490803" anchor-label="DocumentUpdate" id="-595419111%2FClasslikes%2F-163490803" data-filterable-set=":writeopia:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/release" data-filterable-set=":writeopia:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-document-update/index.html"><span>Document</span><wbr><span><span>Update</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-595419111%2FClasslikes%2F-163490803"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-document-update/index.html">DocumentUpdate</a></div><div class="brief "><p class="paragraph">Repository responsible for saving the document updates.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1001233481%2FClasslikes%2F-163490803" anchor-label="FindStory" id="1001233481%2FClasslikes%2F-163490803" data-filterable-set=":writeopia:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/release" data-filterable-set=":writeopia:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-find-story/index.html"><span>Find</span><wbr><span><span>Story</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1001233481%2FClasslikes%2F-163490803"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-find-story/index.html">FindStory</a></div><div class="brief "><p class="paragraph">Helper object to find StoryUnits inside a the List<story>. This object search in the list and also in GroupSteps.</story></p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2047751499%2FClasslikes%2F-163490803" anchor-label="FocusHandler" id="2047751499%2FClasslikes%2F-163490803" data-filterable-set=":writeopia:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/release" data-filterable-set=":writeopia:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-focus-handler/index.html"><span>Focus</span><wbr><span><span>Handler</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2047751499%2FClasslikes%2F-163490803"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-focus-handler/index.html">FocusHandler</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">isMessageFn<span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span>{ typeNumber -&gt;
+        typeNumber == StoryTypes.MESSAGE.type.number ||
+                typeNumber == StoryTypes.MESSAGE_BOX.type.number ||
+                typeNumber == StoryTypes.CHECK_ITEM.type.number
+    }</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This class is responsible to control the focus of the edition of story. (example: If the text of a story is being edited, this story has the current focus.)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1813817014%2FClasslikes%2F-163490803" anchor-label="MovementHandler" id="-1813817014%2FClasslikes%2F-163490803" data-filterable-set=":writeopia:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/release" data-filterable-set=":writeopia:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-movement-handler/index.html"><span>Movement</span><wbr><span><span>Handler</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1813817014%2FClasslikes%2F-163490803"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-movement-handler/index.html">MovementHandler</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">stepsNormalizer<span class="token operator">: </span><a href="../io.writeopia.sdk.utils.alias.html#1286376529%2FClasslikes%2F-163490803">UnitsNormalizationMap</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Class responsible to handle move requests of Stories. This class handles the logic to move a Story to another position, when a Story is grouped together with another one and when a Story is separated from a group.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-837103992%2FClasslikes%2F-163490803" anchor-label="WriteopiaManager" id="-837103992%2FClasslikes%2F-163490803" data-filterable-set=":writeopia:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/release" data-filterable-set=":writeopia:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-writeopia-manager/index.html"><span>Writeopia</span><wbr><span><span>Manager</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-837103992%2FClasslikes%2F-163490803"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-writeopia-manager/index.html">WriteopiaManager</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">stepsNormalizer<span class="token operator">: </span><a href="../io.writeopia.sdk.utils.alias.html#1286376529%2FClasslikes%2F-163490803">UnitsNormalizationMap</a><span class="token operator"> = </span>StepsMapNormalizationBuilder.reduceNormalizations {
+            defaultNormalizers()
+        }<span class="token punctuation">, </span></span><span class="parameter ">movementHandler<span class="token operator">: </span><a href="-movement-handler/index.html">MovementHandler</a><span class="token operator"> = </span>MovementHandler(stepsNormalizer)<span class="token punctuation">, </span></span><span class="parameter ">contentHandler<span class="token operator">: </span><a href="-content-handler/index.html">ContentHandler</a><span class="token operator"> = </span>ContentHandler(
+        stepsNormalizer = stepsNormalizer
+    )<span class="token punctuation">, </span></span><span class="parameter ">focusHandler<span class="token operator">: </span><a href="-focus-handler/index.html">FocusHandler</a><span class="token operator"> = </span>FocusHandler()<span class="token punctuation">, </span></span><span class="parameter ">coroutineScope<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineScope///PointingToDeclaration/">CoroutineScope</span><span class="token operator"> = </span>CoroutineScope(
+        SupervisorJob() + Dispatchers.Main.immediate
+    )<span class="token punctuation">, </span></span><span class="parameter ">dispatcher<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineDispatcher///PointingToDeclaration/">CoroutineDispatcher</span><span class="token operator"> = </span>Dispatchers.IO<span class="token punctuation">, </span></span><span class="parameter ">backStackManager<span class="token operator">: </span><a href="../io.writeopia.sdk.backstack/-backstack-manager/index.html">BackstackManager</a><span class="token operator"> = </span>BackstackManager.create(
+        contentHandler,
+        movementHandler
+    )<span class="token punctuation">, </span></span><span class="parameter ">userId<span class="token operator">: </span><span class="token keyword">suspend </span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span>{ "no_user_id_provided" }</span></span><span class="token punctuation">)</span> : <a href="../io.writeopia.sdk.backstack/-backstack-handler/index.html">BackstackHandler</a>, <a href="../io.writeopia.sdk.backstack/-backstack-inform/index.html">BackstackInform</a></div><div class="brief "><p class="paragraph">This is the entry class of the framework. It follows the Controller pattern, redirecting all the call to another class responsible for the part of the SDK requested.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
+
