@@ -33,6 +33,8 @@ io.writeopia.sdk.video
 module:writeopia_models
 io.writeopia.sdk.models.document
 io.writeopia.sdk.models.story
+module:writeopia_export
+io.writeopia.sdk.export
 module:writeopia_network
 io.writeopia.sdk.network.injector
 io.writeopia.sdk.network.notes
