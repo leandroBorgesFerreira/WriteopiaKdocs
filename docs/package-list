@@ -22,7 +22,6 @@ io.writeopia.sdk.normalization.merge
 io.writeopia.sdk.normalization.merge.steps
 io.writeopia.sdk.normalization.unchange
 io.writeopia.sdk.preview
-io.writeopia.sdk.repository
 io.writeopia.sdk.text.edition
 io.writeopia.sdk.uicomponents
 io.writeopia.sdk.utils
