@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>DocumentSqlDao</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            Writeopia
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector common-like" data-active="" data-filter=":plugins:writeopia_serialization:dokkaHtml/commonMain">common</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="Writeopia::io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao///PointingToDeclaration//-1249678833">
+  <div class="breadcrumbs"><a href="../../../index.html">Writeopia</a><span class="delimiter">/</span><a href="../index.html">io.writeopia.sdk.persistence.sqldelight.dao</a><span class="delimiter">/</span><span class="current">DocumentSqlDao</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Document</span><wbr></wbr><span>Sql</span><wbr></wbr><span><span>Dao</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">DocumentSqlDao</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">documentQueries<span class="token operator">: </span><span data-unresolved-link="io.writeopia.sdk.sql/DocumentEntityQueries///PointingToDeclaration/">DocumentEntityQueries</span><span class="token punctuation">, </span></span><span class="parameter ">storyStepQueries<span class="token operator">: </span><span data-unresolved-link="io.writeopia.sdk.sql/StoryStepEntityQueries///PointingToDeclaration/">StoryStepEntityQueries</span></span></span><span class="token punctuation">)</span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="2029740298%2FConstructors%2F-1249678833" anchor-label="DocumentSqlDao" id="2029740298%2FConstructors%2F-1249678833" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":plugins:writeopia_serialization:dokkaHtml/commonMain" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-document-sql-dao.html"><span>Document</span><wbr></wbr><span>Sql</span><wbr></wbr><span><span>Dao</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2029740298%2FConstructors%2F-1249678833"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">documentQueries<span class="token operator">: </span><span data-unresolved-link="io.writeopia.sdk.sql/DocumentEntityQueries///PointingToDeclaration/">DocumentEntityQueries</span><span class="token punctuation">, </span></span><span class="parameter ">storyStepQueries<span class="token operator">: </span><span data-unresolved-link="io.writeopia.sdk.sql/StoryStepEntityQueries///PointingToDeclaration/">StoryStepEntityQueries</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-1971435572%2FFunctions%2F-1249678833" anchor-label="deleteDocumentById" id="-1971435572%2FFunctions%2F-1249678833" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_serialization:dokkaHtml/commonMain" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="delete-document-by-id.html"><span>delete</span><wbr></wbr><span>Document</span><wbr></wbr><span>By</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1971435572%2FFunctions%2F-1249678833"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="delete-document-by-id.html"><span class="token function">deleteDocumentById</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">document<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1234414315%2FFunctions%2F-1249678833" anchor-label="deleteDocumentByIds" id="-1234414315%2FFunctions%2F-1249678833" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_serialization:dokkaHtml/commonMain" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="delete-document-by-ids.html"><span>delete</span><wbr></wbr><span>Document</span><wbr></wbr><span>By</span><wbr></wbr><span><span>Ids</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1234414315%2FFunctions%2F-1249678833"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="delete-document-by-ids.html"><span class="token function">deleteDocumentByIds</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">ids<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="50934372%2FFunctions%2F-1249678833" anchor-label="deleteDocumentsByUserId" id="50934372%2FFunctions%2F-1249678833" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_serialization:dokkaHtml/commonMain" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="delete-documents-by-user-id.html"><span>delete</span><wbr></wbr><span>Documents</span><wbr></wbr><span>By</span><wbr></wbr><span>User</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="50934372%2FFunctions%2F-1249678833"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="delete-documents-by-user-id.html"><span class="token function">deleteDocumentsByUserId</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">userId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1022134267%2FFunctions%2F-1249678833" anchor-label="insertDocument" id="1022134267%2FFunctions%2F-1249678833" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_serialization:dokkaHtml/commonMain" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="insert-document.html"><span>insert</span><wbr></wbr><span><span>Document</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1022134267%2FFunctions%2F-1249678833"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="insert-document.html"><span class="token function">insertDocument</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">document<span class="token operator">: </span><span data-unresolved-link="/&amp;lt;Error class: unknown class&amp;gt;///PointingToDeclaration/">&lt;Error class: unknown class&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1041819522%2FFunctions%2F-1249678833" anchor-label="insertDocuments" id="-1041819522%2FFunctions%2F-1249678833" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_serialization:dokkaHtml/commonMain" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="insert-documents.html"><span>insert</span><wbr></wbr><span><span>Documents</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1041819522%2FFunctions%2F-1249678833"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="insert-documents.html"><span class="token function">insertDocuments</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>documents<span class="token operator">: </span><span data-unresolved-link="/&amp;lt;Error class: unknown class&amp;gt;///PointingToDeclaration/">&lt;Error class: unknown class&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-562504758%2FFunctions%2F-1249678833" anchor-label="insertDocumentWithContent" id="-562504758%2FFunctions%2F-1249678833" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_serialization:dokkaHtml/commonMain" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="insert-document-with-content.html"><span>insert</span><wbr></wbr><span>Document</span><wbr></wbr><span>With</span><wbr></wbr><span><span>Content</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-562504758%2FFunctions%2F-1249678833"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="insert-document-with-content.html"><span class="token function">insertDocumentWithContent</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">document<span class="token operator">: </span><span data-unresolved-link="/&amp;lt;Error class: unknown class&amp;gt;///PointingToDeclaration/">&lt;Error class: unknown class&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1274041826%2FFunctions%2F-1249678833" anchor-label="insertStoryStep" id="1274041826%2FFunctions%2F-1249678833" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_serialization:dokkaHtml/commonMain" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="insert-story-step.html"><span>insert</span><wbr></wbr><span>Story</span><wbr></wbr><span><span>Step</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1274041826%2FFunctions%2F-1249678833"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="insert-story-step.html"><span class="token function">insertStoryStep</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">storyStep<span class="token operator">: </span><span data-unresolved-link="/&amp;lt;Error class: unknown class&amp;gt;///PointingToDeclaration/">&lt;Error class: unknown class&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token punctuation">, </span></span><span class="parameter ">documentId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1932993874%2FFunctions%2F-1249678833" anchor-label="loadDocumentsWithContentByUserId" id="1932993874%2FFunctions%2F-1249678833" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_serialization:dokkaHtml/commonMain" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="load-documents-with-content-by-user-id.html"><span>load</span><wbr></wbr><span>Documents</span><wbr></wbr><span>With</span><wbr></wbr><span>Content</span><wbr></wbr><span>By</span><wbr></wbr><span>User</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1932993874%2FFunctions%2F-1249678833"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="load-documents-with-content-by-user-id.html"><span class="token function">loadDocumentsWithContentByUserId</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">userId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span data-unresolved-link="/&amp;lt;Error class: unknown class&amp;gt;///PointingToDeclaration/">&lt;Error class: unknown class&gt;</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1682248798%2FFunctions%2F-1249678833" anchor-label="loadDocumentWithContentById" id="1682248798%2FFunctions%2F-1249678833" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_serialization:dokkaHtml/commonMain" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="load-document-with-content-by-id.html"><span>load</span><wbr></wbr><span>Document</span><wbr></wbr><span>With</span><wbr></wbr><span>Content</span><wbr></wbr><span>By</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1682248798%2FFunctions%2F-1249678833"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="load-document-with-content-by-id.html"><span class="token function">loadDocumentWithContentById</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">documentId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="/&amp;lt;Error class: unknown class&amp;gt;///PointingToDeclaration/">&lt;Error class: unknown class&gt;</span><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1615709141%2FFunctions%2F-1249678833" anchor-label="loadDocumentWithContentByIds" id="-1615709141%2FFunctions%2F-1249678833" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_serialization:dokkaHtml/commonMain" data-filterable-set=":plugins:writeopia_serialization:dokkaHtml/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="load-document-with-content-by-ids.html"><span>load</span><wbr></wbr><span>Document</span><wbr></wbr><span>With</span><wbr></wbr><span>Content</span><wbr></wbr><span>By</span><wbr></wbr><span><span>Ids</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1615709141%2FFunctions%2F-1249678833"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_serialization:dokkaHtml/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="load-document-with-content-by-ids.html"><span class="token function">loadDocumentWithContentByIds</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span data-unresolved-link="/&amp;lt;Error class: unknown class&amp;gt;///PointingToDeclaration/">&lt;Error class: unknown class&gt;</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

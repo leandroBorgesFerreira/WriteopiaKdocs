@@ -1,0 +1,763 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:io.writeopia.sdk.drawer.content////PointingToDeclaration/-writeopia/io.writeopia.sdk.drawer.content/index.html
+$dokka.location:io.writeopia.sdk.drawer.content//defaultImageShape/androidx.compose.ui.Modifier#kotlin.Boolean/PointingToDeclaration/-writeopia/io.writeopia.sdk.drawer.content/default-image-shape.html
+$dokka.location:io.writeopia.sdk.drawer.content/ImageDrawer///PointingToDeclaration/-writeopia/io.writeopia.sdk.drawer.content/-image-drawer/index.html
+$dokka.location:io.writeopia.sdk.drawer.content/ImageDrawer/ImageDrawer/#kotlin.Function1[kotlin.Boolean,androidx.compose.ui.Modifier?]#kotlin.Function1[io.writeopia.sdk.model.action.Action.Merge,kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.sdk.drawer.content/-image-drawer/-image-drawer.html
+$dokka.location:io.writeopia.sdk.drawer.content/ImageDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.sdk.drawer.content/-image-drawer/-step.html
+$dokka.location:io.writeopia.sdk.drawer.content/VideoDrawer///PointingToDeclaration/-writeopia/io.writeopia.sdk.drawer.content/-video-drawer/index.html
+$dokka.location:io.writeopia.sdk.drawer.content/VideoDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.sdk.drawer.content/-video-drawer/-step.html
+$dokka.location:io.writeopia.sdk.drawer.content/VideoDrawer/VideoDrawer/#androidx.compose.ui.Modifier?/PointingToDeclaration/-writeopia/io.writeopia.sdk.drawer.content/-video-drawer/-video-drawer.html
+$dokka.location:io.writeopia.sdk.drawer.factory////PointingToDeclaration/-writeopia/io.writeopia.sdk.drawer.factory/index.html
+$dokka.location:io.writeopia.sdk.drawer.factory/DefaultDrawersAndroid///PointingToDeclaration/-writeopia/io.writeopia.sdk.drawer.factory/-default-drawers-android/index.html
+$dokka.location:io.writeopia.sdk.drawer.factory/DefaultDrawersAndroid/create/#io.writeopia.ui.manager.WriteopiaStateManager#androidx.compose.ui.graphics.Shape#kotlin.Boolean#androidx.compose.ui.graphics.Color#kotlin.Function0[kotlin.Unit]#io.writeopia.ui.edition.TextCommandHandler/PointingToDeclaration/-writeopia/io.writeopia.sdk.drawer.factory/-default-drawers-android/create.html
+$dokka.location:io.writeopia.sdk.export////PointingToDeclaration/-writeopia/io.writeopia.sdk.export/index.html
+$dokka.location:io.writeopia.sdk.export/ContentAdd.EMPTY_LINE_AFTER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.export/-content-add/-e-m-p-t-y_-l-i-n-e_-a-f-t-e-r/index.html
+$dokka.location:io.writeopia.sdk.export/ContentAdd.EMPTY_LINE_BEFORE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.export/-content-add/-e-m-p-t-y_-l-i-n-e_-b-e-f-o-r-e/index.html
+$dokka.location:io.writeopia.sdk.export/ContentAdd.EMPTY_LINE_BEFORE_AND_AFTER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.export/-content-add/-e-m-p-t-y_-l-i-n-e_-b-e-f-o-r-e_-a-n-d_-a-f-t-e-r/index.html
+$dokka.location:io.writeopia.sdk.export/ContentAdd.NOTHING///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.export/-content-add/-n-o-t-h-i-n-g/index.html
+$dokka.location:io.writeopia.sdk.export/ContentAdd///PointingToDeclaration/-writeopia/io.writeopia.sdk.export/-content-add/index.html
+$dokka.location:io.writeopia.sdk.export/ContentAdd/entries/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.export/-content-add/entries.html
+$dokka.location:io.writeopia.sdk.export/ContentAdd/valueOf/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.export/-content-add/value-of.html
+$dokka.location:io.writeopia.sdk.export/ContentAdd/values/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.export/-content-add/values.html
+$dokka.location:io.writeopia.sdk.export/DocumentToMarkdown///PointingToDeclaration/-writeopia/io.writeopia.sdk.export/-document-to-markdown/index.html
+$dokka.location:io.writeopia.sdk.export/DocumentToMarkdown/parse/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#kotlin.Function1[io.writeopia.sdk.models.story.StoryStep,kotlin.Pair[io.writeopia.sdk.export.ContentAdd,kotlin.String?]]#kotlin.Boolean/PointingToDeclaration/-writeopia/io.writeopia.sdk.export/-document-to-markdown/parse.html
+$dokka.location:io.writeopia.sdk.filter////PointingToDeclaration/-writeopia/io.writeopia.sdk.filter/index.html
+$dokka.location:io.writeopia.sdk.filter/DocumentFilter///PointingToDeclaration/-writeopia/io.writeopia.sdk.filter/-document-filter/index.html
+$dokka.location:io.writeopia.sdk.filter/DocumentFilter/removeTypesFromDocument/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#kotlin.collections.Set[kotlin.Int]/PointingToDeclaration/-writeopia/io.writeopia.sdk.filter/-document-filter/remove-types-from-document.html
+$dokka.location:io.writeopia.sdk.filter/DocumentFilterObject///PointingToDeclaration/-writeopia/io.writeopia.sdk.filter/-document-filter-object/index.html
+$dokka.location:io.writeopia.sdk.filter/DocumentFilterObject/removeTypesFromDocument/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#kotlin.collections.Set[kotlin.Int]/PointingToDeclaration/-writeopia/io.writeopia.sdk.filter/-document-filter-object/remove-types-from-document.html
+$dokka.location:io.writeopia.sdk.import_document////PointingToDeclaration/-writeopia/io.writeopia.sdk.import_document/index.html
+$dokka.location:io.writeopia.sdk.import_document//createReverseIndexOfCommand/#kotlin.collections.List[io.writeopia.sdk.models.command.Command]/PointingToDeclaration/-writeopia/io.writeopia.sdk.import_document/create-reverse-index-of-command.html
+$dokka.location:io.writeopia.sdk.import_document/CharactersReverseIndexParser///PointingToDeclaration/-writeopia/io.writeopia.sdk.import_document/-characters-reverse-index-parser/index.html
+$dokka.location:io.writeopia.sdk.import_document/CharactersReverseIndexParser/CharactersReverseIndexParser/#kotlin.collections.List[io.writeopia.sdk.models.command.Command]/PointingToDeclaration/-writeopia/io.writeopia.sdk.import_document/-characters-reverse-index-parser/-characters-reverse-index-parser.html
+$dokka.location:io.writeopia.sdk.import_document/CommandIndex///PointingToDeclaration/-writeopia/io.writeopia.sdk.import_document/-command-index/index.html
+$dokka.location:io.writeopia.sdk.import_document/CommandIndex/CommandIndex/#kotlin.Int#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.import_document/-command-index/-command-index.html
+$dokka.location:io.writeopia.sdk.import_document/CommandIndex/commandId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.import_document/-command-index/command-id.html
+$dokka.location:io.writeopia.sdk.import_document/CommandIndex/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.import_document/-command-index/position.html
+$dokka.location:io.writeopia.sdk.import_document/MarkdownToDocument///PointingToDeclaration/-writeopia/io.writeopia.sdk.import_document/-markdown-to-document/index.html
+$dokka.location:io.writeopia.sdk.import_document/MarkdownToDocument/MarkdownToDocument/#io.writeopia.sdk.import_document.CharactersReverseIndexParser/PointingToDeclaration/-writeopia/io.writeopia.sdk.import_document/-markdown-to-document/-markdown-to-document.html
+$dokka.location:io.writeopia.sdk.manager////PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/index.html
+$dokka.location:io.writeopia.sdk.manager//fixMove/io.writeopia.sdk.model.action.Action.Move#/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/fix-move.html
+$dokka.location:io.writeopia.sdk.manager/ContentHandler///PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-content-handler/index.html
+$dokka.location:io.writeopia.sdk.manager/ContentHandler/ContentHandler/#kotlin.collections.Set[kotlin.Int]#kotlin.Function1[kotlin.collections.Map[kotlin.Int,kotlin.collections.List[io.writeopia.sdk.models.story.StoryStep]],kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]]#kotlin.Function1[io.writeopia.sdk.models.story.StoryType,io.writeopia.sdk.models.story.StoryType]/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-content-handler/-content-handler.html
+$dokka.location:io.writeopia.sdk.manager/ContentHandler/addNewContent/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-content-handler/add-new-content.html
+$dokka.location:io.writeopia.sdk.manager/ContentHandler/addNewContentBulk/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-content-handler/add-new-content-bulk.html
+$dokka.location:io.writeopia.sdk.manager/ContentHandler/bulkDeletion/#kotlin.collections.Iterable[kotlin.Int]#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-content-handler/bulk-deletion.html
+$dokka.location:io.writeopia.sdk.manager/ContentHandler/changeStoryStepState/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-content-handler/change-story-step-state.html
+$dokka.location:io.writeopia.sdk.manager/ContentHandler/changeStoryType/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#io.writeopia.sdk.models.story.StoryType#kotlin.Int#io.writeopia.sdk.models.command.CommandInfo?/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-content-handler/change-story-type.html
+$dokka.location:io.writeopia.sdk.manager/ContentHandler/deleteStory/#io.writeopia.sdk.model.action.Action.DeleteStory#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-content-handler/delete-story.html
+$dokka.location:io.writeopia.sdk.manager/ContentHandler/onLineBreak/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#io.writeopia.sdk.model.action.Action.LineBreak/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-content-handler/on-line-break.html
+$dokka.location:io.writeopia.sdk.manager/DocumentTracker///PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-document-tracker/index.html
+$dokka.location:io.writeopia.sdk.manager/DocumentTracker/saveOnStoryChanges/#kotlinx.coroutines.flow.Flow[kotlin.Pair[io.writeopia.sdk.model.story.StoryState,io.writeopia.sdk.model.document.DocumentInfo]]#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-document-tracker/save-on-story-changes.html
+$dokka.location:io.writeopia.sdk.manager/DocumentUpdate///PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-document-update/index.html
+$dokka.location:io.writeopia.sdk.manager/DocumentUpdate/saveDocument/#io.writeopia.sdk.models.document.Document/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-document-update/save-document.html
+$dokka.location:io.writeopia.sdk.manager/DocumentUpdate/saveDocumentMetadata/#io.writeopia.sdk.models.document.Document/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-document-update/save-document-metadata.html
+$dokka.location:io.writeopia.sdk.manager/DocumentUpdate/saveStoryStep/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-document-update/save-story-step.html
+$dokka.location:io.writeopia.sdk.manager/DocumentUpdate/updateStoryStep/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-document-update/update-story-step.html
+$dokka.location:io.writeopia.sdk.manager/FindStory///PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-find-story/index.html
+$dokka.location:io.writeopia.sdk.manager/FindStory/previousFocus/#kotlin.collections.List[io.writeopia.sdk.models.story.StoryStep]#kotlin.Int#kotlin.collections.Set[kotlin.Int]/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-find-story/previous-focus.html
+$dokka.location:io.writeopia.sdk.manager/FocusHandler///PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-focus-handler/index.html
+$dokka.location:io.writeopia.sdk.manager/FocusHandler/FocusHandler/#kotlin.Function1[kotlin.Int,kotlin.Boolean]/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-focus-handler/-focus-handler.html
+$dokka.location:io.writeopia.sdk.manager/FocusHandler/findNextFocus/#kotlin.Int#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-focus-handler/find-next-focus.html
+$dokka.location:io.writeopia.sdk.manager/MovementHandler///PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-movement-handler/index.html
+$dokka.location:io.writeopia.sdk.manager/MovementHandler/MovementHandler/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-movement-handler/-movement-handler.html
+$dokka.location:io.writeopia.sdk.manager/MovementHandler/merge/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#io.writeopia.sdk.model.action.Action.Merge/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-movement-handler/merge.html
+$dokka.location:io.writeopia.sdk.manager/MovementHandler/move/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#io.writeopia.sdk.model.action.Action.Move/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-movement-handler/move.html
+$dokka.location:io.writeopia.sdk.manager/WriteopiaManager///PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-writeopia-manager/index.html
+$dokka.location:io.writeopia.sdk.manager/WriteopiaManager/WriteopiaManager/#kotlin.Function1[kotlin.collections.Map[kotlin.Int,kotlin.collections.List[io.writeopia.sdk.models.story.StoryStep]],kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]]#io.writeopia.sdk.manager.MovementHandler#io.writeopia.sdk.manager.ContentHandler#io.writeopia.sdk.manager.FocusHandler/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-writeopia-manager/-writeopia-manager.html
+$dokka.location:io.writeopia.sdk.manager/WriteopiaManager/bulkDelete/#kotlin.collections.Iterable[kotlin.Int]#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-writeopia-manager/bulk-delete.html
+$dokka.location:io.writeopia.sdk.manager/WriteopiaManager/changeStoryState/#io.writeopia.sdk.model.action.Action.StoryStateChange#io.writeopia.sdk.model.story.StoryState/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-writeopia-manager/change-story-state.html
+$dokka.location:io.writeopia.sdk.manager/WriteopiaManager/changeStoryType/#kotlin.Int#io.writeopia.sdk.models.story.StoryType#io.writeopia.sdk.models.command.CommandInfo?#io.writeopia.sdk.model.story.StoryState/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-writeopia-manager/change-story-type.html
+$dokka.location:io.writeopia.sdk.manager/WriteopiaManager/mergeRequest/#io.writeopia.sdk.model.action.Action.Merge#io.writeopia.sdk.model.story.StoryState/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-writeopia-manager/merge-request.html
+$dokka.location:io.writeopia.sdk.manager/WriteopiaManager/moveRequest/#io.writeopia.sdk.model.action.Action.Move#io.writeopia.sdk.model.story.StoryState/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-writeopia-manager/move-request.html
+$dokka.location:io.writeopia.sdk.manager/WriteopiaManager/newStory/#kotlin.String#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-writeopia-manager/new-story.html
+$dokka.location:io.writeopia.sdk.manager/WriteopiaManager/nextFocusOrCreate/#kotlin.Int#io.writeopia.sdk.model.story.StoryState/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-writeopia-manager/next-focus-or-create.html
+$dokka.location:io.writeopia.sdk.manager/WriteopiaManager/onDelete/#io.writeopia.sdk.model.action.Action.DeleteStory#io.writeopia.sdk.model.story.StoryState/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-writeopia-manager/on-delete.html
+$dokka.location:io.writeopia.sdk.manager/WriteopiaManager/onLineBreak/#io.writeopia.sdk.model.action.Action.LineBreak#io.writeopia.sdk.model.story.StoryState/PointingToDeclaration/-writeopia/io.writeopia.sdk.manager/-writeopia-manager/on-line-break.html
+$dokka.location:io.writeopia.sdk.model.action////PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/index.html
+$dokka.location:io.writeopia.sdk.model.action/Action.BulkDelete///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-bulk-delete/index.html
+$dokka.location:io.writeopia.sdk.model.action/Action.BulkDelete/BulkDelete/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-bulk-delete/-bulk-delete.html
+$dokka.location:io.writeopia.sdk.model.action/Action.BulkDelete/deletedUnits/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-bulk-delete/deleted-units.html
+$dokka.location:io.writeopia.sdk.model.action/Action.DeleteStory///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-delete-story/index.html
+$dokka.location:io.writeopia.sdk.model.action/Action.DeleteStory/DeleteStory/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-delete-story/-delete-story.html
+$dokka.location:io.writeopia.sdk.model.action/Action.DeleteStory/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-delete-story/position.html
+$dokka.location:io.writeopia.sdk.model.action/Action.DeleteStory/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-delete-story/story-step.html
+$dokka.location:io.writeopia.sdk.model.action/Action.LineBreak///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-line-break/index.html
+$dokka.location:io.writeopia.sdk.model.action/Action.LineBreak/LineBreak/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-line-break/-line-break.html
+$dokka.location:io.writeopia.sdk.model.action/Action.LineBreak/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-line-break/position.html
+$dokka.location:io.writeopia.sdk.model.action/Action.LineBreak/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-line-break/story-step.html
+$dokka.location:io.writeopia.sdk.model.action/Action.Merge///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-merge/index.html
+$dokka.location:io.writeopia.sdk.model.action/Action.Merge/Merge/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.models.story.StoryStep#kotlin.Int#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-merge/-merge.html
+$dokka.location:io.writeopia.sdk.model.action/Action.Merge/positionFrom/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-merge/position-from.html
+$dokka.location:io.writeopia.sdk.model.action/Action.Merge/positionTo/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-merge/position-to.html
+$dokka.location:io.writeopia.sdk.model.action/Action.Merge/receiver/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-merge/receiver.html
+$dokka.location:io.writeopia.sdk.model.action/Action.Merge/sender/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-merge/sender.html
+$dokka.location:io.writeopia.sdk.model.action/Action.Move///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-move/index.html
+$dokka.location:io.writeopia.sdk.model.action/Action.Move/Move/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-move/-move.html
+$dokka.location:io.writeopia.sdk.model.action/Action.Move/positionFrom/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-move/position-from.html
+$dokka.location:io.writeopia.sdk.model.action/Action.Move/positionTo/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-move/position-to.html
+$dokka.location:io.writeopia.sdk.model.action/Action.Move/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-move/story-step.html
+$dokka.location:io.writeopia.sdk.model.action/Action.StoryStateChange///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-story-state-change/index.html
+$dokka.location:io.writeopia.sdk.model.action/Action.StoryStateChange/StoryStateChange/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-story-state-change/-story-state-change.html
+$dokka.location:io.writeopia.sdk.model.action/Action.StoryStateChange/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-story-state-change/position.html
+$dokka.location:io.writeopia.sdk.model.action/Action.StoryStateChange/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/-story-state-change/story-step.html
+$dokka.location:io.writeopia.sdk.model.action/Action///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-action/index.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Add///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-add/index.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Add/Add/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-add/-add.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Add/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-add/position.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Add/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-add/story-step.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.BulkDelete///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-bulk-delete/index.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.BulkDelete/BulkDelete/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-bulk-delete/-bulk-delete.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.BulkDelete/deletedUnits/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-bulk-delete/deleted-units.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Delete///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-delete/index.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Delete/Delete/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-delete/-delete.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Delete/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-delete/position.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Delete/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-delete/story-step.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Merge///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-merge/index.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Merge/Merge/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.models.story.StoryStep#kotlin.Int#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-merge/-merge.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Merge/positionFrom/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-merge/position-from.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Merge/positionTo/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-merge/position-to.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Merge/receiver/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-merge/receiver.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Merge/sender/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-merge/sender.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Move///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-move/index.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Move/Move/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-move/-move.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Move/positionFrom/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-move/position-from.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Move/positionTo/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-move/position-to.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.Move/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-move/story-step.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.StoryStateChange///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-story-state-change/index.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.StoryStateChange/StoryStateChange/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-story-state-change/-story-state-change.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.StoryStateChange/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-story-state-change/position.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.StoryStateChange/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-story-state-change/story-step.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.StoryTextChange///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-story-text-change/index.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.StoryTextChange/StoryTextChange/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-story-text-change/-story-text-change.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.StoryTextChange/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-story-text-change/position.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction.StoryTextChange/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/-story-text-change/story-step.html
+$dokka.location:io.writeopia.sdk.model.action/BackstackAction///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-backstack-action/index.html
+$dokka.location:io.writeopia.sdk.model.action/SingleAction///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-single-action/index.html
+$dokka.location:io.writeopia.sdk.model.action/SingleAction/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-single-action/position.html
+$dokka.location:io.writeopia.sdk.model.action/SingleAction/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.action/-single-action/story-step.html
+$dokka.location:io.writeopia.sdk.model.document////PointingToDeclaration/-writeopia/io.writeopia.sdk.model.document/index.html
+$dokka.location:io.writeopia.sdk.model.document//info/io.writeopia.sdk.models.document.Document#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.document/info.html
+$dokka.location:io.writeopia.sdk.model.document/DocumentInfo.Companion///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.document/-document-info/-companion/index.html
+$dokka.location:io.writeopia.sdk.model.document/DocumentInfo.Companion/empty/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.document/-document-info/-companion/empty.html
+$dokka.location:io.writeopia.sdk.model.document/DocumentInfo///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.document/-document-info/index.html
+$dokka.location:io.writeopia.sdk.model.document/DocumentInfo/DocumentInfo/#kotlin.String#kotlin.String#kotlinx.datetime.Instant#kotlinx.datetime.Instant/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.document/-document-info/-document-info.html
+$dokka.location:io.writeopia.sdk.model.document/DocumentInfo/createdAt/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.document/-document-info/created-at.html
+$dokka.location:io.writeopia.sdk.model.document/DocumentInfo/id/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.document/-document-info/id.html
+$dokka.location:io.writeopia.sdk.model.document/DocumentInfo/lastUpdatedAt/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.document/-document-info/last-updated-at.html
+$dokka.location:io.writeopia.sdk.model.document/DocumentInfo/title/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.document/-document-info/title.html
+$dokka.location:io.writeopia.sdk.model.draganddrop////PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draganddrop/index.html
+$dokka.location:io.writeopia.sdk.model.draganddrop/DropInfo///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draganddrop/-drop-info/index.html
+$dokka.location:io.writeopia.sdk.model.draganddrop/DropInfo/DropInfo/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draganddrop/-drop-info/-drop-info.html
+$dokka.location:io.writeopia.sdk.model.draganddrop/DropInfo/positionFrom/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draganddrop/-drop-info/position-from.html
+$dokka.location:io.writeopia.sdk.model.draganddrop/DropInfo/storyUnit/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draganddrop/-drop-info/story-unit.html
+$dokka.location:io.writeopia.sdk.model.draw////PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draw/index.html
+$dokka.location:io.writeopia.sdk.model.draw/DrawInfo///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draw/-draw-info/index.html
+$dokka.location:io.writeopia.sdk.model.draw/DrawInfo/DrawInfo/#kotlin.Boolean#kotlin.String?#kotlin.Int#kotlin.collections.Map[kotlin.String,kotlin.Any]#kotlin.Boolean/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draw/-draw-info/-draw-info.html
+$dokka.location:io.writeopia.sdk.model.draw/DrawInfo/editable/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draw/-draw-info/editable.html
+$dokka.location:io.writeopia.sdk.model.draw/DrawInfo/extraData/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draw/-draw-info/extra-data.html
+$dokka.location:io.writeopia.sdk.model.draw/DrawInfo/focusId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draw/-draw-info/focus-id.html
+$dokka.location:io.writeopia.sdk.model.draw/DrawInfo/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draw/-draw-info/position.html
+$dokka.location:io.writeopia.sdk.model.draw/DrawInfo/selectMode/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.draw/-draw-info/select-mode.html
+$dokka.location:io.writeopia.sdk.model.story////PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/index.html
+$dokka.location:io.writeopia.sdk.model.story/DrawState///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-draw-state/index.html
+$dokka.location:io.writeopia.sdk.model.story/DrawState/DrawState/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.model.story.DrawStory]#kotlin.String?/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-draw-state/-draw-state.html
+$dokka.location:io.writeopia.sdk.model.story/DrawState/focusId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-draw-state/focus-id.html
+$dokka.location:io.writeopia.sdk.model.story/DrawState/stories/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-draw-state/stories.html
+$dokka.location:io.writeopia.sdk.model.story/DrawStory///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-draw-story/index.html
+$dokka.location:io.writeopia.sdk.model.story/DrawStory/DrawStory/#io.writeopia.sdk.models.story.StoryStep#kotlin.Boolean/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-draw-story/-draw-story.html
+$dokka.location:io.writeopia.sdk.model.story/DrawStory/isSelected/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-draw-story/is-selected.html
+$dokka.location:io.writeopia.sdk.model.story/DrawStory/key/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-draw-story/key.html
+$dokka.location:io.writeopia.sdk.model.story/DrawStory/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-draw-story/story-step.html
+$dokka.location:io.writeopia.sdk.model.story/LastEdit.InfoEdition///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-last-edit/-info-edition/index.html
+$dokka.location:io.writeopia.sdk.model.story/LastEdit.InfoEdition/InfoEdition/#kotlin.Int#io.writeopia.sdk.models.story.StoryStep/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-last-edit/-info-edition/-info-edition.html
+$dokka.location:io.writeopia.sdk.model.story/LastEdit.InfoEdition/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-last-edit/-info-edition/position.html
+$dokka.location:io.writeopia.sdk.model.story/LastEdit.InfoEdition/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-last-edit/-info-edition/story-step.html
+$dokka.location:io.writeopia.sdk.model.story/LastEdit.LineEdition///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-last-edit/-line-edition/index.html
+$dokka.location:io.writeopia.sdk.model.story/LastEdit.LineEdition/LineEdition/#kotlin.Int#io.writeopia.sdk.models.story.StoryStep/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-last-edit/-line-edition/-line-edition.html
+$dokka.location:io.writeopia.sdk.model.story/LastEdit.LineEdition/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-last-edit/-line-edition/position.html
+$dokka.location:io.writeopia.sdk.model.story/LastEdit.LineEdition/storyStep/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-last-edit/-line-edition/story-step.html
+$dokka.location:io.writeopia.sdk.model.story/LastEdit.Nothing///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-last-edit/-nothing/index.html
+$dokka.location:io.writeopia.sdk.model.story/LastEdit.Whole///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-last-edit/-whole/index.html
+$dokka.location:io.writeopia.sdk.model.story/LastEdit///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-last-edit/index.html
+$dokka.location:io.writeopia.sdk.model.story/PositionNode///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-position-node/index.html
+$dokka.location:io.writeopia.sdk.model.story/PositionNode/PositionNode/#kotlin.String#kotlin.Int#io.writeopia.sdk.model.story.PositionNode?/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-position-node/-position-node.html
+$dokka.location:io.writeopia.sdk.model.story/PositionNode/nextPosition/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-position-node/next-position.html
+$dokka.location:io.writeopia.sdk.model.story/PositionNode/parentId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-position-node/parent-id.html
+$dokka.location:io.writeopia.sdk.model.story/PositionNode/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-position-node/position.html
+$dokka.location:io.writeopia.sdk.model.story/StoryState///PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-story-state/index.html
+$dokka.location:io.writeopia.sdk.model.story/StoryState/StoryState/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#io.writeopia.sdk.model.story.LastEdit#kotlin.String?/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-story-state/-story-state.html
+$dokka.location:io.writeopia.sdk.model.story/StoryState/focusId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-story-state/focus-id.html
+$dokka.location:io.writeopia.sdk.model.story/StoryState/lastEdit/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-story-state/last-edit.html
+$dokka.location:io.writeopia.sdk.model.story/StoryState/stories/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.model.story/-story-state/stories.html
+$dokka.location:io.writeopia.sdk.models.command////PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/index.html
+$dokka.location:io.writeopia.sdk.models.command/Command///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command/index.html
+$dokka.location:io.writeopia.sdk.models.command/Command/Command/#kotlin.Int#kotlin.String#io.writeopia.sdk.models.command.WhereToFind/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command/-command.html
+$dokka.location:io.writeopia.sdk.models.command/Command/commandId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command/command-id.html
+$dokka.location:io.writeopia.sdk.models.command/Command/commandText/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command/command-text.html
+$dokka.location:io.writeopia.sdk.models.command/Command/whereToFind/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command/where-to-find.html
+$dokka.location:io.writeopia.sdk.models.command/CommandFactory///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-factory/index.html
+$dokka.location:io.writeopia.sdk.models.command/CommandFactory/checkItem/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-factory/check-item.html
+$dokka.location:io.writeopia.sdk.models.command/CommandFactory/codeBlock/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-factory/code-block.html
+$dokka.location:io.writeopia.sdk.models.command/CommandFactory/defaultCommands/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-factory/default-commands.html
+$dokka.location:io.writeopia.sdk.models.command/CommandFactory/h1/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-factory/h1.html
+$dokka.location:io.writeopia.sdk.models.command/CommandFactory/h2/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-factory/h2.html
+$dokka.location:io.writeopia.sdk.models.command/CommandFactory/h3/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-factory/h3.html
+$dokka.location:io.writeopia.sdk.models.command/CommandFactory/h4/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-factory/h4.html
+$dokka.location:io.writeopia.sdk.models.command/CommandFactory/unOrderedList/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-factory/un-ordered-list.html
+$dokka.location:io.writeopia.sdk.models.command/CommandInfo///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-info/index.html
+$dokka.location:io.writeopia.sdk.models.command/CommandInfo/CommandInfo/#io.writeopia.sdk.models.command.Command#io.writeopia.sdk.models.command.CommandTrigger/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-info/-command-info.html
+$dokka.location:io.writeopia.sdk.models.command/CommandInfo/command/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-info/command.html
+$dokka.location:io.writeopia.sdk.models.command/CommandInfo/commandTrigger/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-info/command-trigger.html
+$dokka.location:io.writeopia.sdk.models.command/CommandTrigger.CLICKED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.command/-command-trigger/-c-l-i-c-k-e-d/index.html
+$dokka.location:io.writeopia.sdk.models.command/CommandTrigger.WRITTEN///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.command/-command-trigger/-w-r-i-t-t-e-n/index.html
+$dokka.location:io.writeopia.sdk.models.command/CommandTrigger///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-trigger/index.html
+$dokka.location:io.writeopia.sdk.models.command/CommandTrigger/entries/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-trigger/entries.html
+$dokka.location:io.writeopia.sdk.models.command/CommandTrigger/valueOf/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-trigger/value-of.html
+$dokka.location:io.writeopia.sdk.models.command/CommandTrigger/values/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-command-trigger/values.html
+$dokka.location:io.writeopia.sdk.models.command/WhereToFind.ANYWHERE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.command/-where-to-find/-a-n-y-w-h-e-r-e/index.html
+$dokka.location:io.writeopia.sdk.models.command/WhereToFind.START///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.command/-where-to-find/-s-t-a-r-t/index.html
+$dokka.location:io.writeopia.sdk.models.command/WhereToFind///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-where-to-find/index.html
+$dokka.location:io.writeopia.sdk.models.command/WhereToFind/entries/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-where-to-find/entries.html
+$dokka.location:io.writeopia.sdk.models.command/WhereToFind/valueOf/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-where-to-find/value-of.html
+$dokka.location:io.writeopia.sdk.models.command/WhereToFind/values/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.command/-where-to-find/values.html
+$dokka.location:io.writeopia.sdk.models.document////PointingToDeclaration/-writeopia/io.writeopia.sdk.models.document/index.html
+$dokka.location:io.writeopia.sdk.models.document/Document///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.document/-document/index.html
+$dokka.location:io.writeopia.sdk.models.document/Document/Document/#kotlin.String#kotlin.String#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#kotlinx.datetime.Instant#kotlinx.datetime.Instant#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.document/-document/-document.html
+$dokka.location:io.writeopia.sdk.models.document/Document/content/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.document/-document/content.html
+$dokka.location:io.writeopia.sdk.models.document/Document/createdAt/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.document/-document/created-at.html
+$dokka.location:io.writeopia.sdk.models.document/Document/id/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.document/-document/id.html
+$dokka.location:io.writeopia.sdk.models.document/Document/lastUpdatedAt/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.document/-document/last-updated-at.html
+$dokka.location:io.writeopia.sdk.models.document/Document/title/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.document/-document/title.html
+$dokka.location:io.writeopia.sdk.models.document/Document/userId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.document/-document/user-id.html
+$dokka.location:io.writeopia.sdk.models.id////PointingToDeclaration/-writeopia/io.writeopia.sdk.models.id/index.html
+$dokka.location:io.writeopia.sdk.models.id/GenerateId///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.id/-generate-id/index.html
+$dokka.location:io.writeopia.sdk.models.id/GenerateId/generate/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.id/-generate-id/generate.html
+$dokka.location:io.writeopia.sdk.models.story////PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/index.html
+$dokka.location:io.writeopia.sdk.models.story/Decoration///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-decoration/index.html
+$dokka.location:io.writeopia.sdk.models.story/Decoration/Decoration/#kotlin.Int?/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-decoration/-decoration.html
+$dokka.location:io.writeopia.sdk.models.story/Decoration/backgroundColor/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-decoration/background-color.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/StoryStep/#kotlin.String#kotlin.String#io.writeopia.sdk.models.story.StoryType#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Boolean?#kotlin.collections.List[io.writeopia.sdk.models.story.StoryStep]#io.writeopia.sdk.models.story.Decoration/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/-story-step.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/checked/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/checked.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/copyNewLocalId/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/copy-new-local-id.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/decoration/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/decoration.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/id/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/id.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/isGroup/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/is-group.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/key/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/key.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/localId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/local-id.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/parentId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/parent-id.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/path/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/path.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/steps/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/steps.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/text/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/text.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/type/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/type.html
+$dokka.location:io.writeopia.sdk.models.story/StoryStep/url/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-step/url.html
+$dokka.location:io.writeopia.sdk.models.story/StoryType///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-type/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryType/StoryType/#kotlin.String#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-type/-story-type.html
+$dokka.location:io.writeopia.sdk.models.story/StoryType/name/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-type/name.html
+$dokka.location:io.writeopia.sdk.models.story/StoryType/number/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-type/number.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.ADD_BUTTON///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-a-d-d_-b-u-t-t-o-n/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.AUDIO///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-a-u-d-i-o/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.CHECK_ITEM///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-c-h-e-c-k_-i-t-e-m/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.CODE_BLOCK///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-c-o-d-e_-b-l-o-c-k/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.Companion///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-types/-companion/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.Companion/fromName/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-types/-companion/from-name.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.Companion/fromNumber/#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-types/-companion/from-number.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.GROUP_IMAGE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-g-r-o-u-p_-i-m-a-g-e/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.GROUP_VIDEO///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-g-r-o-u-p_-v-i-d-e-o/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.H1///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-h1/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.H2///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-h2/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.H3///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-h3/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.H4///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-h4/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.IMAGE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-i-m-a-g-e/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.LAST_SPACE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-l-a-s-t_-s-p-a-c-e/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.SPACE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-s-p-a-c-e/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.TEXT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-t-e-x-t/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.TEXT_BOX///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-t-e-x-t_-b-o-x/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.TITLE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-t-i-t-l-e/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.UNORDERED_LIST_ITEM///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-u-n-o-r-d-e-r-e-d_-l-i-s-t_-i-t-e-m/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes.VIDEO///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.models.story/-story-types/-v-i-d-e-o/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes///PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-types/index.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes/entries/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-types/entries.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes/type/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-types/type.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes/valueOf/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-types/value-of.html
+$dokka.location:io.writeopia.sdk.models.story/StoryTypes/values/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.models.story/-story-types/values.html
+$dokka.location:io.writeopia.sdk.network.injector////PointingToDeclaration/-writeopia/io.writeopia.sdk.network.injector/index.html
+$dokka.location:io.writeopia.sdk.network.injector/ConnectionInjector///PointingToDeclaration/-writeopia/io.writeopia.sdk.network.injector/-connection-injector/index.html
+$dokka.location:io.writeopia.sdk.network.injector/ConnectionInjector/ConnectionInjector/#kotlin.String#io.writeopia.sdk.network.oauth.BearerTokenHandler#io.ktor.client.plugins.logging.Logger#io.ktor.client.HttpClient#kotlin.Boolean/PointingToDeclaration/-writeopia/io.writeopia.sdk.network.injector/-connection-injector/-connection-injector.html
+$dokka.location:io.writeopia.sdk.network.injector/ConnectionInjector/liveEditionManager/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.network.injector/-connection-injector/live-edition-manager.html
+$dokka.location:io.writeopia.sdk.network.injector/ConnectionInjector/notesApi/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.network.injector/-connection-injector/notes-api.html
+$dokka.location:io.writeopia.sdk.network.notes////PointingToDeclaration/-writeopia/io.writeopia.sdk.network.notes/index.html
+$dokka.location:io.writeopia.sdk.network.notes/NotesApi///PointingToDeclaration/-writeopia/io.writeopia.sdk.network.notes/-notes-api/index.html
+$dokka.location:io.writeopia.sdk.network.notes/NotesApi/NotesApi/#io.ktor.client.HttpClient#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.network.notes/-notes-api/-notes-api.html
+$dokka.location:io.writeopia.sdk.network.notes/NotesApi/introNotes/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.network.notes/-notes-api/intro-notes.html
+$dokka.location:io.writeopia.sdk.network.notes/NotesApi/proxyUserDocumentsApi/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.network.notes/-notes-api/proxy-user-documents-api.html
+$dokka.location:io.writeopia.sdk.network.oauth////PointingToDeclaration/-writeopia/io.writeopia.sdk.network.oauth/index.html
+$dokka.location:io.writeopia.sdk.network.oauth/BearerTokenHandler///PointingToDeclaration/-writeopia/io.writeopia.sdk.network.oauth/-bearer-token-handler/index.html
+$dokka.location:io.writeopia.sdk.network.oauth/BearerTokenHandler/getIdToken/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.network.oauth/-bearer-token-handler/get-id-token.html
+$dokka.location:io.writeopia.sdk.network.websocket////PointingToDeclaration/-writeopia/io.writeopia.sdk.network.websocket/index.html
+$dokka.location:io.writeopia.sdk.network.websocket/WebsocketEditionManager///PointingToDeclaration/-writeopia/io.writeopia.sdk.network.websocket/-websocket-edition-manager/index.html
+$dokka.location:io.writeopia.sdk.network.websocket/WebsocketEditionManager/WebsocketEditionManager/#kotlin.String#io.ktor.client.HttpClient#kotlinx.serialization.json.Json/PointingToDeclaration/-writeopia/io.writeopia.sdk.network.websocket/-websocket-edition-manager/-websocket-edition-manager.html
+$dokka.location:io.writeopia.sdk.network.websocket/WebsocketEditionManager/startLiveEdition/#kotlinx.coroutines.flow.Flow[kotlin.Pair[io.writeopia.sdk.model.story.StoryState,io.writeopia.sdk.model.document.DocumentInfo]]#kotlinx.coroutines.flow.MutableStateFlow[io.writeopia.sdk.model.story.StoryState]/PointingToDeclaration/-writeopia/io.writeopia.sdk.network.websocket/-websocket-edition-manager/start-live-edition.html
+$dokka.location:io.writeopia.sdk.network.websocket/WebsocketEditionManager/stopLiveEdition/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.network.websocket/-websocket-edition-manager/stop-live-edition.html
+$dokka.location:io.writeopia.sdk.normalization.builder////PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.builder/index.html
+$dokka.location:io.writeopia.sdk.normalization.builder/StepsMapNormalizationBuilder.Companion///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.builder/-steps-map-normalization-builder/-companion/index.html
+$dokka.location:io.writeopia.sdk.normalization.builder/StepsMapNormalizationBuilder.Companion/reduceNormalizations/#kotlin.Function1[io.writeopia.sdk.normalization.builder.StepsMapNormalizationBuilder,kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.builder/-steps-map-normalization-builder/-companion/reduce-normalizations.html
+$dokka.location:io.writeopia.sdk.normalization.builder/StepsMapNormalizationBuilder///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.builder/-steps-map-normalization-builder/index.html
+$dokka.location:io.writeopia.sdk.normalization.builder/StepsMapNormalizationBuilder/StepsMapNormalizationBuilder/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.builder/-steps-map-normalization-builder/-steps-map-normalization-builder.html
+$dokka.location:io.writeopia.sdk.normalization.builder/StepsMapNormalizationBuilder/addMergeNormalization/#kotlin.Function1[kotlin.collections.Map[kotlin.Int,kotlin.collections.List[io.writeopia.sdk.models.story.StoryStep]],kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]]/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.builder/-steps-map-normalization-builder/add-merge-normalization.html
+$dokka.location:io.writeopia.sdk.normalization.builder/StepsMapNormalizationBuilder/addNormalization/#kotlin.Function1[kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep],kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]]/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.builder/-steps-map-normalization-builder/add-normalization.html
+$dokka.location:io.writeopia.sdk.normalization.builder/StepsMapNormalizationBuilder/defaultNormalizers/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.builder/-steps-map-normalization-builder/default-normalizers.html
+$dokka.location:io.writeopia.sdk.normalization.merge.steps////PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge.steps/index.html
+$dokka.location:io.writeopia.sdk.normalization.merge.steps/StepToGroupMerger///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge.steps/-step-to-group-merger/index.html
+$dokka.location:io.writeopia.sdk.normalization.merge.steps/StepToGroupMerger/StepToGroupMerger/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge.steps/-step-to-group-merger/-step-to-group-merger.html
+$dokka.location:io.writeopia.sdk.normalization.merge.steps/StepToGroupMerger/merge/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.models.story.StoryType/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge.steps/-step-to-group-merger/merge.html
+$dokka.location:io.writeopia.sdk.normalization.merge.steps/StepToStepMerger///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge.steps/-step-to-step-merger/index.html
+$dokka.location:io.writeopia.sdk.normalization.merge.steps/StepToStepMerger/StepToStepMerger/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge.steps/-step-to-step-merger/-step-to-step-merger.html
+$dokka.location:io.writeopia.sdk.normalization.merge.steps/StepToStepMerger/merge/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.models.story.StoryType/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge.steps/-step-to-step-merger/merge.html
+$dokka.location:io.writeopia.sdk.normalization.merge////PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/index.html
+$dokka.location:io.writeopia.sdk.normalization.merge/MergeLogic///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-merge-logic/index.html
+$dokka.location:io.writeopia.sdk.normalization.merge/MergeLogic/create/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.models.story.StoryStep#kotlin.Int#kotlin.Int?/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-merge-logic/create.html
+$dokka.location:io.writeopia.sdk.normalization.merge/MergeLogicFunction///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-merge-logic-function/index.html
+$dokka.location:io.writeopia.sdk.normalization.merge/MergeNormalization.Builder///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-merge-normalization/-builder/index.html
+$dokka.location:io.writeopia.sdk.normalization.merge/MergeNormalization.Builder/addMerger/#io.writeopia.sdk.normalization.merge.StepsMergerCoordinator/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-merge-normalization/-builder/add-merger.html
+$dokka.location:io.writeopia.sdk.normalization.merge/MergeNormalization.Builder/build/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-merge-normalization/-builder/build.html
+$dokka.location:io.writeopia.sdk.normalization.merge/MergeNormalization.Companion///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-merge-normalization/-companion/index.html
+$dokka.location:io.writeopia.sdk.normalization.merge/MergeNormalization.Companion/build/#kotlin.Function1[io.writeopia.sdk.normalization.merge.MergeNormalization.Builder,kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-merge-normalization/-companion/build.html
+$dokka.location:io.writeopia.sdk.normalization.merge/MergeNormalization///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-merge-normalization/index.html
+$dokka.location:io.writeopia.sdk.normalization.merge/MergeNormalization/MergeNormalization/#kotlin.collections.List[io.writeopia.sdk.normalization.merge.StepsMergerCoordinator]/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-merge-normalization/-merge-normalization.html
+$dokka.location:io.writeopia.sdk.normalization.merge/MergeNormalization/mergeSteps/#kotlin.collections.Map[kotlin.Int,kotlin.collections.List[io.writeopia.sdk.models.story.StoryStep]]/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-merge-normalization/merge-steps.html
+$dokka.location:io.writeopia.sdk.normalization.merge/StepMerger///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-step-merger/index.html
+$dokka.location:io.writeopia.sdk.normalization.merge/StepMerger/merge/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.models.story.StoryType/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-step-merger/merge.html
+$dokka.location:io.writeopia.sdk.normalization.merge/StepsMergerCoordinator///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-steps-merger-coordinator/index.html
+$dokka.location:io.writeopia.sdk.normalization.merge/StepsMergerCoordinator/StepsMergerCoordinator/#io.writeopia.sdk.normalization.merge.StepMerger#io.writeopia.sdk.models.story.StoryType#io.writeopia.sdk.models.story.StoryType?#kotlin.Function4[io.writeopia.sdk.models.story.StoryStep,io.writeopia.sdk.models.story.StoryStep,kotlin.Int,kotlin.Int?,kotlin.Boolean]/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-steps-merger-coordinator/-steps-merger-coordinator.html
+$dokka.location:io.writeopia.sdk.normalization.merge/StepsMergerCoordinator/canMerge/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.models.story.StoryStep/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-steps-merger-coordinator/can-merge.html
+$dokka.location:io.writeopia.sdk.normalization.merge/StepsMergerCoordinator/merge/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.models.story.StoryStep/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.merge/-steps-merger-coordinator/merge.html
+$dokka.location:io.writeopia.sdk.normalization.unchange////PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.unchange/index.html
+$dokka.location:io.writeopia.sdk.normalization.unchange/UnchangedNormalizer///PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.unchange/-unchanged-normalizer/index.html
+$dokka.location:io.writeopia.sdk.normalization.unchange/UnchangedNormalizer/skipChange/#kotlin.collections.Iterable[io.writeopia.sdk.models.story.StoryStep]/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.unchange/-unchanged-normalizer/skip-change.html
+$dokka.location:io.writeopia.sdk.normalization.unchange/UnchangedNormalizer/skipChange/#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]/PointingToDeclaration/-writeopia/io.writeopia.sdk.normalization.unchange/-unchanged-normalizer/skip-change.html
+$dokka.location:io.writeopia.sdk.persistence.converter////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.converter/index.html
+$dokka.location:io.writeopia.sdk.persistence.converter/IdListConverter///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.converter/-id-list-converter/index.html
+$dokka.location:io.writeopia.sdk.persistence.converter/IdListConverter/IdListConverter/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.converter/-id-list-converter/-id-list-converter.html
+$dokka.location:io.writeopia.sdk.persistence.converter/IdListConverter/toList/kotlin.String#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.converter/-id-list-converter/to-list.html
+$dokka.location:io.writeopia.sdk.persistence.converter/IdListConverter/toStringData/kotlin.collections.List[kotlin.String]#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.converter/-id-list-converter/to-string-data.html
+$dokka.location:io.writeopia.sdk.persistence.core.di////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.di/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.di/RepositoryInjector.Companion///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.di/-repository-injector/-companion/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.di/RepositoryInjector///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.di/-repository-injector/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.di/RepositoryInjector/provideDocumentRepository/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.di/-repository-injector/provide-document-repository.html
+$dokka.location:io.writeopia.sdk.persistence.core.extensions////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.extensions/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.extensions//toEntityField/kotlin.String#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.extensions/to-entity-field.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository/DocumentRepository///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/-document-repository/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository/DocumentRepository/deleteByUserId/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/-document-repository/delete-by-user-id.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository/DocumentRepository/deleteDocument/#io.writeopia.sdk.models.document.Document/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/-document-repository/delete-document.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository/DocumentRepository/deleteDocumentByIds/#kotlin.collections.Set[kotlin.String]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/-document-repository/delete-document-by-ids.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository/DocumentRepository/loadDocumentById/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/-document-repository/load-document-by-id.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository/DocumentRepository/loadDocumentsForUser/#kotlin.String#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/-document-repository/load-documents-for-user.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository/DocumentRepository/loadDocumentsWithContentByIds/#kotlin.collections.List[kotlin.String]#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/-document-repository/load-documents-with-content-by-ids.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository/DocumentRepository/moveDocumentsToNewUser/#kotlin.String#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/-document-repository/move-documents-to-new-user.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository/DocumentRepository/saveDocument/#io.writeopia.sdk.models.document.Document/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/-document-repository/save-document.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository/DocumentRepository/saveDocumentMetadata/#io.writeopia.sdk.models.document.Document/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/-document-repository/save-document-metadata.html
+$dokka.location:io.writeopia.sdk.persistence.core.repository/DocumentRepository/saveStoryStep/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.repository/-document-repository/save-story-step.html
+$dokka.location:io.writeopia.sdk.persistence.core.sorting////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.sorting/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.sorting/OrderBy.CREATE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.persistence.core.sorting/-order-by/-c-r-e-a-t-e/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.sorting/OrderBy.NAME///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.persistence.core.sorting/-order-by/-n-a-m-e/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.sorting/OrderBy.UPDATE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-writeopia/io.writeopia.sdk.persistence.core.sorting/-order-by/-u-p-d-a-t-e/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.sorting/OrderBy///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.sorting/-order-by/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.sorting/OrderBy/entries/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.sorting/-order-by/entries.html
+$dokka.location:io.writeopia.sdk.persistence.core.sorting/OrderBy/type/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.sorting/-order-by/type.html
+$dokka.location:io.writeopia.sdk.persistence.core.sorting/OrderBy/valueOf/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.sorting/-order-by/value-of.html
+$dokka.location:io.writeopia.sdk.persistence.core.sorting/OrderBy/values/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.sorting/-order-by/values.html
+$dokka.location:io.writeopia.sdk.persistence.core.tracker////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.tracker/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.tracker/OnUpdateDocumentTracker///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.tracker/-on-update-document-tracker/index.html
+$dokka.location:io.writeopia.sdk.persistence.core.tracker/OnUpdateDocumentTracker/OnUpdateDocumentTracker/#io.writeopia.sdk.manager.DocumentUpdate#io.writeopia.sdk.filter.DocumentFilter/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.tracker/-on-update-document-tracker/-on-update-document-tracker.html
+$dokka.location:io.writeopia.sdk.persistence.core.tracker/OnUpdateDocumentTracker/saveOnStoryChanges/#kotlinx.coroutines.flow.Flow[kotlin.Pair[io.writeopia.sdk.model.story.StoryState,io.writeopia.sdk.model.document.DocumentInfo]]#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core.tracker/-on-update-document-tracker/save-on-story-changes.html
+$dokka.location:io.writeopia.sdk.persistence.core////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core/index.html
+$dokka.location:io.writeopia.sdk.persistence.core//CREATED_AT/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core/-c-r-e-a-t-e-d_-a-t.html
+$dokka.location:io.writeopia.sdk.persistence.core//DOCUMENT_ENTITY/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core/-d-o-c-u-m-e-n-t_-e-n-t-i-t-y.html
+$dokka.location:io.writeopia.sdk.persistence.core//LAST_UPDATED_AT/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core/-l-a-s-t_-u-p-d-a-t-e-d_-a-t.html
+$dokka.location:io.writeopia.sdk.persistence.core//TITLE/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core/-t-i-t-l-e.html
+$dokka.location:io.writeopia.sdk.persistence.core//USER_ID/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.core/-u-s-e-r_-i-d.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/index.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/index.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/RoomDocumentRepository/#io.writeopia.sdk.persistence.dao.DocumentEntityDao#io.writeopia.sdk.persistence.dao.StoryUnitEntityDao/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/-room-document-repository.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/deleteByUserId/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/delete-by-user-id.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/deleteDocument/#io.writeopia.sdk.models.document.Document/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/delete-document.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/deleteDocumentByIds/#kotlin.collections.Set[kotlin.String]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/delete-document-by-ids.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/loadDocumentById/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/load-document-by-id.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/loadDocumentsForUser/#kotlin.String#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/load-documents-for-user.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/loadDocumentsWithContentByIds/#kotlin.collections.List[kotlin.String]#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/load-documents-with-content-by-ids.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/moveDocumentsToNewUser/#kotlin.String#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/move-documents-to-new-user.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/saveDocument/#io.writeopia.sdk.models.document.Document/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/save-document.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/saveDocumentMetadata/#io.writeopia.sdk.models.document.Document/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/save-document-metadata.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/saveStoryStep/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/save-story-step.html
+$dokka.location:io.writeopia.sdk.persistence.dao.room/RoomDocumentRepository/updateStoryStep/#io.writeopia.sdk.models.story.StoryStep#kotlin.Int#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao.room/-room-document-repository/update-story-step.html
+$dokka.location:io.writeopia.sdk.persistence.dao////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/index.html
+$dokka.location:io.writeopia.sdk.persistence.dao/DocumentEntityDao///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-document-entity-dao/index.html
+$dokka.location:io.writeopia.sdk.persistence.dao/DocumentEntityDao/deleteDocuments/#kotlin.Array[io.writeopia.sdk.persistence.entity.document.DocumentEntity]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-document-entity-dao/delete-documents.html
+$dokka.location:io.writeopia.sdk.persistence.dao/DocumentEntityDao/deleteDocumentsByUserId/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-document-entity-dao/delete-documents-by-user-id.html
+$dokka.location:io.writeopia.sdk.persistence.dao/DocumentEntityDao/insertDocuments/#kotlin.Array[io.writeopia.sdk.persistence.entity.document.DocumentEntity]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-document-entity-dao/insert-documents.html
+$dokka.location:io.writeopia.sdk.persistence.dao/DocumentEntityDao/loadAllDocuments/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-document-entity-dao/load-all-documents.html
+$dokka.location:io.writeopia.sdk.persistence.dao/DocumentEntityDao/loadAllIds/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-document-entity-dao/load-all-ids.html
+$dokka.location:io.writeopia.sdk.persistence.dao/DocumentEntityDao/loadDocumentById/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-document-entity-dao/load-document-by-id.html
+$dokka.location:io.writeopia.sdk.persistence.dao/DocumentEntityDao/loadDocumentWithContentById/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-document-entity-dao/load-document-with-content-by-id.html
+$dokka.location:io.writeopia.sdk.persistence.dao/DocumentEntityDao/loadDocumentWithContentByIds/#kotlin.collections.List[kotlin.String]#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-document-entity-dao/load-document-with-content-by-ids.html
+$dokka.location:io.writeopia.sdk.persistence.dao/DocumentEntityDao/loadDocumentsWithContentForUser/#kotlin.String#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-document-entity-dao/load-documents-with-content-for-user.html
+$dokka.location:io.writeopia.sdk.persistence.dao/DocumentEntityDao/moveDocumentsToNewUser/#kotlin.String#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-document-entity-dao/move-documents-to-new-user.html
+$dokka.location:io.writeopia.sdk.persistence.dao/StoryUnitEntityDao///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-story-unit-entity-dao/index.html
+$dokka.location:io.writeopia.sdk.persistence.dao/StoryUnitEntityDao/deleteDocumentContent/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-story-unit-entity-dao/delete-document-content.html
+$dokka.location:io.writeopia.sdk.persistence.dao/StoryUnitEntityDao/insertStoryUnits/#kotlin.Array[io.writeopia.sdk.persistence.entity.story.StoryStepEntity]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-story-unit-entity-dao/insert-story-units.html
+$dokka.location:io.writeopia.sdk.persistence.dao/StoryUnitEntityDao/loadDocumentContent/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-story-unit-entity-dao/load-document-content.html
+$dokka.location:io.writeopia.sdk.persistence.dao/StoryUnitEntityDao/queryById/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-story-unit-entity-dao/query-by-id.html
+$dokka.location:io.writeopia.sdk.persistence.dao/StoryUnitEntityDao/queryInnerSteps/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-story-unit-entity-dao/query-inner-steps.html
+$dokka.location:io.writeopia.sdk.persistence.dao/StoryUnitEntityDao/updateStoryStep/#io.writeopia.sdk.persistence.entity.story.StoryStepEntity/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.dao/-story-unit-entity-dao/update-story-step.html
+$dokka.location:io.writeopia.sdk.persistence.entity.document////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.document/index.html
+$dokka.location:io.writeopia.sdk.persistence.entity.document/DocumentEntity.Companion///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.document/-document-entity/-companion/index.html
+$dokka.location:io.writeopia.sdk.persistence.entity.document/DocumentEntity.Companion/createById/#kotlin.String#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.document/-document-entity/-companion/create-by-id.html
+$dokka.location:io.writeopia.sdk.persistence.entity.document/DocumentEntity///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.document/-document-entity/index.html
+$dokka.location:io.writeopia.sdk.persistence.entity.document/DocumentEntity/DocumentEntity/#kotlin.String#kotlin.String#kotlin.Long#kotlin.Long#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.document/-document-entity/-document-entity.html
+$dokka.location:io.writeopia.sdk.persistence.entity.document/DocumentEntity/createdAt/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.document/-document-entity/created-at.html
+$dokka.location:io.writeopia.sdk.persistence.entity.document/DocumentEntity/id/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.document/-document-entity/id.html
+$dokka.location:io.writeopia.sdk.persistence.entity.document/DocumentEntity/lastUpdatedAt/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.document/-document-entity/last-updated-at.html
+$dokka.location:io.writeopia.sdk.persistence.entity.document/DocumentEntity/title/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.document/-document-entity/title.html
+$dokka.location:io.writeopia.sdk.persistence.entity.document/DocumentEntity/userId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.document/-document-entity/user-id.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/index.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/index.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/StoryStepEntity/#kotlin.String#kotlin.String#kotlin.String#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Boolean?#kotlin.Int#kotlin.String#kotlin.Boolean#kotlin.Boolean#kotlin.Int?/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/-story-step-entity.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/backgroundColor/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/background-color.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/checked/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/checked.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/documentId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/document-id.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/hasInnerSteps/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/has-inner-steps.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/id/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/id.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/isGroup/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/is-group.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/localId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/local-id.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/parentId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/parent-id.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/path/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/path.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/position.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/text/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/text.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/type/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/type.html
+$dokka.location:io.writeopia.sdk.persistence.entity.story/StoryStepEntity/url/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.entity.story/-story-step-entity/url.html
+$dokka.location:io.writeopia.sdk.persistence.parse////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.parse/index.html
+$dokka.location:io.writeopia.sdk.persistence.parse//toEntity/io.writeopia.sdk.models.document.Document#/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.parse/to-entity.html
+$dokka.location:io.writeopia.sdk.persistence.parse//toEntity/io.writeopia.sdk.models.story.StoryStep#kotlin.Int#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.parse/to-entity.html
+$dokka.location:io.writeopia.sdk.persistence.parse//toEntity/kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.parse/to-entity.html
+$dokka.location:io.writeopia.sdk.persistence.parse//toModel/io.writeopia.sdk.persistence.entity.document.DocumentEntity#kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.parse/to-model.html
+$dokka.location:io.writeopia.sdk.persistence.parse//toModel/io.writeopia.sdk.persistence.entity.story.StoryStepEntity#kotlin.collections.List[io.writeopia.sdk.persistence.entity.story.StoryStepEntity]#kotlin.Function1[kotlin.String,io.writeopia.sdk.models.story.StoryType]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.parse/to-model.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/index.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/index.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/SqlDelightDocumentRepository/#io.writeopia.sdk.persistence.sqldelight.dao.DocumentSqlDao/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/-sql-delight-document-repository.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/deleteByUserId/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/delete-by-user-id.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/deleteDocument/#[Error type: Unresolved type for Document]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/delete-document.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/deleteDocumentByIds/#kotlin.collections.Set[kotlin.String]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/delete-document-by-ids.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/loadDocumentById/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/load-document-by-id.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/loadDocumentsForUser/#kotlin.String#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/load-documents-for-user.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/loadDocumentsWithContentByIds/#kotlin.collections.List[kotlin.String]#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/load-documents-with-content-by-ids.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/moveDocumentsToNewUser/#kotlin.String#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/move-documents-to-new-user.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/saveDocument/#[Error type: Unresolved type for Document]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/save-document.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/saveDocumentMetadata/#[Error type: Unresolved type for Document]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/save-document-metadata.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/saveStoryStep/#[Error type: Unresolved type for StoryStep]#kotlin.Int#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/save-story-step.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao.sql/SqlDelightDocumentRepository/updateStoryStep/#[Error type: Unresolved type for StoryStep]#kotlin.Int#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao.sql/-sql-delight-document-repository/update-story-step.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao////PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/index.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao///PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/index.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao/DocumentSqlDao/#io.writeopia.sdk.sql.DocumentEntityQueries#io.writeopia.sdk.sql.StoryStepEntityQueries/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/-document-sql-dao.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao/deleteDocumentById/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/delete-document-by-id.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao/deleteDocumentByIds/#kotlin.collections.Set[kotlin.String]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/delete-document-by-ids.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao/deleteDocumentsByUserId/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/delete-documents-by-user-id.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao/insertDocument/#[Error type: Unresolved type for Document]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/insert-document.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao/insertDocumentWithContent/#[Error type: Unresolved type for Document]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/insert-document-with-content.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao/insertDocuments/#kotlin.Array[[Error type: Unresolved type for Document]]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/insert-documents.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao/insertStoryStep/#[Error type: Unresolved type for StoryStep]#kotlin.Long#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/insert-story-step.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao/loadDocumentWithContentById/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/load-document-with-content-by-id.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao/loadDocumentWithContentByIds/#kotlin.collections.List[kotlin.String]/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/load-document-with-content-by-ids.html
+$dokka.location:io.writeopia.sdk.persistence.sqldelight.dao/DocumentSqlDao/loadDocumentsWithContentByUserId/#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.persistence.sqldelight.dao/-document-sql-dao/load-documents-with-content-by-user-id.html
+$dokka.location:io.writeopia.sdk.preview////PointingToDeclaration/-writeopia/io.writeopia.sdk.preview/index.html
+$dokka.location:io.writeopia.sdk.preview/PreviewParser///PointingToDeclaration/-writeopia/io.writeopia.sdk.preview/-preview-parser/index.html
+$dokka.location:io.writeopia.sdk.preview/PreviewParser/PreviewParser/#kotlin.collections.Set[kotlin.Int]/PointingToDeclaration/-writeopia/io.writeopia.sdk.preview/-preview-parser/-preview-parser.html
+$dokka.location:io.writeopia.sdk.preview/PreviewParser/preview/#kotlin.collections.Iterable[io.writeopia.sdk.models.story.StoryStep]#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.preview/-preview-parser/preview.html
+$dokka.location:io.writeopia.sdk.repository////PointingToDeclaration/-writeopia/io.writeopia.sdk.repository/index.html
+$dokka.location:io.writeopia.sdk.repository/StoriesRepository///PointingToDeclaration/-writeopia/io.writeopia.sdk.repository/-stories-repository/index.html
+$dokka.location:io.writeopia.sdk.repository/StoriesRepository/history/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.repository/-stories-repository/history.html
+$dokka.location:io.writeopia.sdk.serialization.data////PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/index.html
+$dokka.location:io.writeopia.sdk.serialization.data/DecorationApi///PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-decoration-api/index.html
+$dokka.location:io.writeopia.sdk.serialization.data/DecorationApi/DecorationApi/#kotlin.Int?/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-decoration-api/-decoration-api.html
+$dokka.location:io.writeopia.sdk.serialization.data/DecorationApi/backgroundColor/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-decoration-api/background-color.html
+$dokka.location:io.writeopia.sdk.serialization.data/DocumentApi///PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-document-api/index.html
+$dokka.location:io.writeopia.sdk.serialization.data/DocumentApi/DocumentApi/#kotlin.String#kotlin.String#kotlin.collections.List[io.writeopia.sdk.serialization.data.StoryStepApi]#kotlin.Long#kotlin.Long#kotlin.String/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-document-api/-document-api.html
+$dokka.location:io.writeopia.sdk.serialization.data/DocumentApi/content/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-document-api/content.html
+$dokka.location:io.writeopia.sdk.serialization.data/DocumentApi/createdAt/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-document-api/created-at.html
+$dokka.location:io.writeopia.sdk.serialization.data/DocumentApi/id/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-document-api/id.html
+$dokka.location:io.writeopia.sdk.serialization.data/DocumentApi/lastUpdatedAt/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-document-api/last-updated-at.html
+$dokka.location:io.writeopia.sdk.serialization.data/DocumentApi/title/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-document-api/title.html
+$dokka.location:io.writeopia.sdk.serialization.data/DocumentApi/userId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-document-api/user-id.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi///PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/index.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi/StoryStepApi/#kotlin.String#io.writeopia.sdk.serialization.data.StoryTypeApi#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Boolean?#kotlin.collections.List[io.writeopia.sdk.serialization.data.StoryStepApi]#io.writeopia.sdk.serialization.data.DecorationApi#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/-story-step-api.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi/checked/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/checked.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi/decoration/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/decoration.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi/id/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/id.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi/parentId/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/parent-id.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi/path/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/path.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi/position/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/position.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi/steps/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/steps.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi/text/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/text.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi/type/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/type.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryStepApi/url/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-step-api/url.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryTypeApi///PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-type-api/index.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryTypeApi/StoryTypeApi/#kotlin.String#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-type-api/-story-type-api.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryTypeApi/name/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-type-api/name.html
+$dokka.location:io.writeopia.sdk.serialization.data/StoryTypeApi/number/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.data/-story-type-api/number.html
+$dokka.location:io.writeopia.sdk.serialization.extensions////PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.extensions/index.html
+$dokka.location:io.writeopia.sdk.serialization.extensions//toApi/io.writeopia.sdk.models.document.Document#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.extensions/to-api.html
+$dokka.location:io.writeopia.sdk.serialization.extensions//toApi/io.writeopia.sdk.models.story.Decoration#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.extensions/to-api.html
+$dokka.location:io.writeopia.sdk.serialization.extensions//toApi/io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.extensions/to-api.html
+$dokka.location:io.writeopia.sdk.serialization.extensions//toApi/io.writeopia.sdk.models.story.StoryType#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.extensions/to-api.html
+$dokka.location:io.writeopia.sdk.serialization.extensions//toModel/io.writeopia.sdk.serialization.data.DecorationApi#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.extensions/to-model.html
+$dokka.location:io.writeopia.sdk.serialization.extensions//toModel/io.writeopia.sdk.serialization.data.DocumentApi#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.extensions/to-model.html
+$dokka.location:io.writeopia.sdk.serialization.extensions//toModel/io.writeopia.sdk.serialization.data.StoryStepApi#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.extensions/to-model.html
+$dokka.location:io.writeopia.sdk.serialization.extensions//toModel/io.writeopia.sdk.serialization.data.StoryTypeApi#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.extensions/to-model.html
+$dokka.location:io.writeopia.sdk.serialization.json////PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.json/index.html
+$dokka.location:io.writeopia.sdk.serialization.json//writeopiaJson/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.json/writeopia-json.html
+$dokka.location:io.writeopia.sdk.serialization.json//writeopiaSerializersModule/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.json/writeopia-serializers-module.html
+$dokka.location:io.writeopia.sdk.serialization.request////PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.request/index.html
+$dokka.location:io.writeopia.sdk.serialization.request//wrapInRequest/TypeParam(bounds=[kotlin.Any?])#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.request/wrap-in-request.html
+$dokka.location:io.writeopia.sdk.serialization.request/WriteopiaRequest///PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.request/-writeopia-request/index.html
+$dokka.location:io.writeopia.sdk.serialization.request/WriteopiaRequest/WriteopiaRequest/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.request/-writeopia-request/-writeopia-request.html
+$dokka.location:io.writeopia.sdk.serialization.request/WriteopiaRequest/data/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.request/-writeopia-request/data.html
+$dokka.location:io.writeopia.sdk.serialization.serializers////PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.serializers/index.html
+$dokka.location:io.writeopia.sdk.serialization.serializers/InstantSerializer///PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.serializers/-instant-serializer/index.html
+$dokka.location:io.writeopia.sdk.serialization.serializers/InstantSerializer/descriptor/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.serializers/-instant-serializer/descriptor.html
+$dokka.location:io.writeopia.sdk.serialization.serializers/InstantSerializer/deserialize/#kotlinx.serialization.encoding.Decoder/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.serializers/-instant-serializer/deserialize.html
+$dokka.location:io.writeopia.sdk.serialization.serializers/InstantSerializer/serialize/#kotlinx.serialization.encoding.Encoder#kotlinx.datetime.Instant/PointingToDeclaration/-writeopia/io.writeopia.sdk.serialization.serializers/-instant-serializer/serialize.html
+$dokka.location:io.writeopia.sdk.shared_edition////PointingToDeclaration/-writeopia/io.writeopia.sdk.shared_edition/index.html
+$dokka.location:io.writeopia.sdk.shared_edition/SharedEditionManager///PointingToDeclaration/-writeopia/io.writeopia.sdk.shared_edition/-shared-edition-manager/index.html
+$dokka.location:io.writeopia.sdk.shared_edition/SharedEditionManager/startLiveEdition/#kotlinx.coroutines.flow.Flow[kotlin.Pair[io.writeopia.sdk.model.story.StoryState,io.writeopia.sdk.model.document.DocumentInfo]]#kotlinx.coroutines.flow.MutableStateFlow[io.writeopia.sdk.model.story.StoryState]/PointingToDeclaration/-writeopia/io.writeopia.sdk.shared_edition/-shared-edition-manager/start-live-edition.html
+$dokka.location:io.writeopia.sdk.shared_edition/SharedEditionManager/stopLiveEdition/#/PointingToDeclaration/-writeopia/io.writeopia.sdk.shared_edition/-shared-edition-manager/stop-live-edition.html
+$dokka.location:io.writeopia.sdk.utils.alias////PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.alias/index.html
+$dokka.location:io.writeopia.sdk.utils.alias/DocumentContent///PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.alias/-document-content/index.html
+$dokka.location:io.writeopia.sdk.utils.alias/UnitsNormalizationMap///PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.alias/-units-normalization-map/index.html
+$dokka.location:io.writeopia.sdk.utils.extensions////PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.extensions/index.html
+$dokka.location:io.writeopia.sdk.utils.extensions//associateWithPosition/kotlin.collections.Iterable[TypeParam(bounds=[kotlin.Any?])]#/PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.extensions/associate-with-position.html
+$dokka.location:io.writeopia.sdk.utils.extensions//noContent/kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#/PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.extensions/no-content.html
+$dokka.location:io.writeopia.sdk.utils.extensions//toEditState/kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]#/PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.extensions/to-edit-state.html
+$dokka.location:io.writeopia.sdk.utils.iterables////PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.iterables/index.html
+$dokka.location:io.writeopia.sdk.utils.iterables//addElementInPosition/kotlin.collections.Map[kotlin.Int,TypeParam(bounds=[kotlin.Any?])]#TypeParam(bounds=[kotlin.Any?])#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.iterables/add-element-in-position.html
+$dokka.location:io.writeopia.sdk.utils.iterables//mergeSortedMaps/kotlin.collections.Map[kotlin.Int,TypeParam(bounds=[kotlin.Any?])]#kotlin.collections.Map[kotlin.Int,TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.iterables/merge-sorted-maps.html
+$dokka.location:io.writeopia.sdk.utils.iterables//normalizePositions/kotlin.collections.Map[kotlin.Int,TypeParam(bounds=[kotlin.Any?])]#/PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.iterables/normalize-positions.html
+$dokka.location:io.writeopia.sdk.utils.iterables/MapOperations///PointingToDeclaration/-writeopia/io.writeopia.sdk.utils.iterables/-map-operations/index.html
+$dokka.location:io.writeopia.ui.backstack////PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/index.html
+$dokka.location:io.writeopia.ui.backstack/BackstackHandler///PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-handler/index.html
+$dokka.location:io.writeopia.ui.backstack/BackstackHandler/redo/#/PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-handler/redo.html
+$dokka.location:io.writeopia.ui.backstack/BackstackHandler/undo/#/PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-handler/undo.html
+$dokka.location:io.writeopia.ui.backstack/BackstackInform///PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-inform/index.html
+$dokka.location:io.writeopia.ui.backstack/BackstackInform/canRedo/#/PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-inform/can-redo.html
+$dokka.location:io.writeopia.ui.backstack/BackstackInform/canUndo/#/PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-inform/can-undo.html
+$dokka.location:io.writeopia.ui.backstack/BackstackManager.Companion///PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-manager/-companion/index.html
+$dokka.location:io.writeopia.ui.backstack/BackstackManager.Companion/create/#io.writeopia.sdk.manager.ContentHandler#io.writeopia.sdk.manager.MovementHandler/PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-manager/-companion/create.html
+$dokka.location:io.writeopia.ui.backstack/BackstackManager///PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-manager/index.html
+$dokka.location:io.writeopia.ui.backstack/BackstackManager/addAction/#io.writeopia.sdk.model.action.BackstackAction/PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-manager/add-action.html
+$dokka.location:io.writeopia.ui.backstack/BackstackManager/nextState/#io.writeopia.sdk.model.story.StoryState/PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-manager/next-state.html
+$dokka.location:io.writeopia.ui.backstack/BackstackManager/previousState/#io.writeopia.sdk.model.story.StoryState/PointingToDeclaration/-writeopia/io.writeopia.ui.backstack/-backstack-manager/previous-state.html
+$dokka.location:io.writeopia.ui.components////PointingToDeclaration/-writeopia/io.writeopia.ui.components/index.html
+$dokka.location:io.writeopia.ui.components//EditionScreen/#androidx.compose.ui.Modifier#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.components/-edition-screen.html
+$dokka.location:io.writeopia.ui.components//SwipeBox/#androidx.compose.ui.Modifier#kotlin.Boolean#androidx.compose.ui.graphics.Color#androidx.compose.ui.graphics.Color#androidx.compose.ui.graphics.Shape#kotlin.Function1[kotlin.Boolean,kotlin.Unit]#kotlin.Function1[androidx.compose.foundation.layout.BoxScope,kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.components/-swipe-box.html
+$dokka.location:io.writeopia.ui.draganddrop.target////PointingToDeclaration/-writeopia/io.writeopia.ui.draganddrop.target/index.html
+$dokka.location:io.writeopia.ui.draganddrop.target//DragTarget/#androidx.compose.ui.Modifier#io.writeopia.sdk.model.draganddrop.DropInfo#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.draganddrop.target/-drag-target.html
+$dokka.location:io.writeopia.ui.draganddrop.target//DragTargetWithDragItem/#androidx.compose.ui.Modifier#io.writeopia.sdk.model.draganddrop.DropInfo#kotlin.Boolean#kotlin.Int#kotlin.Function0[kotlin.Unit]#androidx.compose.ui.unit.Dp#kotlin.Function1[androidx.compose.foundation.layout.RowScope,kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.draganddrop.target/-drag-target-with-drag-item.html
+$dokka.location:io.writeopia.ui.draganddrop.target//DraggableScreen/#androidx.compose.ui.Modifier#kotlin.Function1[androidx.compose.foundation.layout.BoxScope,kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.draganddrop.target/-draggable-screen.html
+$dokka.location:io.writeopia.ui.draganddrop.target//DropTarget/#androidx.compose.ui.Modifier#kotlin.Function3[androidx.compose.foundation.layout.BoxScope,kotlin.Boolean,io.writeopia.sdk.model.draganddrop.DropInfo?,kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.draganddrop.target/-drop-target.html
+$dokka.location:io.writeopia.ui.drawer.content.js////PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content.js/index.html
+$dokka.location:io.writeopia.ui.drawer.content.js//DESKTOP_TITLE_DRAWER_TEST_TAG/#/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content.js/-d-e-s-k-t-o-p_-t-i-t-l-e_-d-r-a-w-e-r_-t-e-s-t_-t-a-g.html
+$dokka.location:io.writeopia.ui.drawer.content.js/DesktopTitleDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content.js/-desktop-title-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.content.js/DesktopTitleDrawer/DesktopTitleDrawer/#androidx.compose.ui.Modifier#androidx.compose.foundation.layout.PaddingValues?#kotlin.Function1[io.writeopia.sdk.model.action.Action.StoryStateChange,kotlin.Unit]#kotlin.Function4[androidx.compose.ui.input.key.KeyEvent,androidx.compose.ui.text.input.TextFieldValue,io.writeopia.sdk.models.story.StoryStep,kotlin.Int,kotlin.Boolean]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content.js/-desktop-title-drawer/-desktop-title-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content.js/DesktopTitleDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content.js/-desktop-title-drawer/-step.html
+$dokka.location:io.writeopia.ui.drawer.content////PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/index.html
+$dokka.location:io.writeopia.ui.drawer.content//checkItemDrawer/#androidx.compose.ui.Modifier#androidx.compose.ui.graphics.Color#kotlin.Boolean#kotlin.Function2[kotlin.Boolean,kotlin.Int,kotlin.Unit]#androidx.compose.ui.unit.Dp#kotlin.Function1[io.writeopia.sdk.model.action.Action.StoryStateChange,kotlin.Unit]#kotlin.Function2[io.writeopia.sdk.models.story.StoryStep,io.writeopia.sdk.model.draw.DrawInfo,kotlin.Unit]?#kotlin.Function1[androidx.compose.foundation.layout.RowScope,io.writeopia.ui.drawer.SimpleTextDrawer]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/check-item-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content//checkItemDrawer/#io.writeopia.ui.manager.WriteopiaStateManager#androidx.compose.ui.Modifier#androidx.compose.ui.unit.Dp#kotlin.Function1[androidx.compose.foundation.layout.RowScope,io.writeopia.ui.drawer.SimpleTextDrawer]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/check-item-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content//headerDrawer/#io.writeopia.ui.manager.WriteopiaStateManager#kotlin.Function0[kotlin.Unit]#kotlin.Function4[androidx.compose.ui.input.key.KeyEvent,androidx.compose.ui.text.input.TextFieldValue,io.writeopia.sdk.models.story.StoryStep,kotlin.Int,kotlin.Boolean]#androidx.compose.ui.Modifier/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/header-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content//swipeTextDrawer/#androidx.compose.ui.Modifier#androidx.compose.ui.graphics.Color#kotlin.Boolean#androidx.compose.ui.unit.Dp#kotlin.Function2[kotlin.Boolean,kotlin.Int,kotlin.Unit]#kotlin.Function1[androidx.compose.foundation.layout.RowScope,io.writeopia.ui.drawer.SimpleTextDrawer]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/swipe-text-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content//swipeTextDrawer/#io.writeopia.ui.manager.WriteopiaStateManager#androidx.compose.ui.Modifier#androidx.compose.ui.unit.Dp#kotlin.Function1[androidx.compose.foundation.layout.RowScope,io.writeopia.ui.drawer.SimpleTextDrawer]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/swipe-text-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content//unOrderedListItemDrawer/#androidx.compose.ui.Modifier#androidx.compose.ui.graphics.Color#kotlin.Boolean#kotlin.Function2[kotlin.Boolean,kotlin.Int,kotlin.Unit]#androidx.compose.ui.unit.Dp#kotlin.Function2[io.writeopia.sdk.models.story.StoryStep,io.writeopia.sdk.model.draw.DrawInfo,kotlin.Unit]?#kotlin.Function1[androidx.compose.foundation.layout.RowScope,io.writeopia.ui.drawer.SimpleTextDrawer]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/un-ordered-list-item-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content//unOrderedListItemDrawer/#io.writeopia.ui.manager.WriteopiaStateManager#androidx.compose.ui.Modifier#androidx.compose.ui.unit.Dp#kotlin.Function1[androidx.compose.foundation.layout.RowScope,io.writeopia.ui.drawer.SimpleTextDrawer]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/un-ordered-list-item-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content/AddButtonDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-add-button-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.content/AddButtonDrawer/AddButtonDrawer/#/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-add-button-drawer/-add-button-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content/AddButtonDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-add-button-drawer/-step.html
+$dokka.location:io.writeopia.ui.drawer.content/HeaderDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-header-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.content/HeaderDrawer/HeaderDrawer/#androidx.compose.ui.Modifier#kotlin.Function0[kotlin.Unit]#kotlin.Function1[androidx.compose.foundation.layout.BoxScope,io.writeopia.ui.drawer.SimpleTextDrawer]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-header-drawer/-header-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content/HeaderDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-header-drawer/-step.html
+$dokka.location:io.writeopia.ui.drawer.content/JsTextDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-js-text-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.content/JsTextDrawer/JsTextDrawer/#androidx.compose.ui.Modifier#androidx.compose.ui.text.TextStyle?#androidx.compose.ui.focus.FocusRequester?#kotlin.Function4[androidx.compose.ui.input.key.KeyEvent,androidx.compose.ui.text.input.TextFieldValue,io.writeopia.sdk.models.story.StoryStep,kotlin.Int,kotlin.Boolean]#kotlin.Function1[io.writeopia.sdk.model.action.Action.StoryStateChange,kotlin.Unit]#io.writeopia.ui.edition.TextCommandHandler#kotlin.Function1[androidx.compose.ui.focus.FocusState,kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-js-text-drawer/-js-text-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content/JsTextDrawer/Text/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo#androidx.compose.foundation.interaction.MutableInteractionSource#androidx.compose.ui.focus.FocusRequester?#kotlin.Function1[kotlin.Function0[kotlin.Unit],kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-js-text-drawer/-text.html
+$dokka.location:io.writeopia.ui.drawer.content/JsTextDrawer/onFocusChanged/#/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-js-text-drawer/on-focus-changed.html
+$dokka.location:io.writeopia.ui.drawer.content/LastEmptySpace///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-last-empty-space/index.html
+$dokka.location:io.writeopia.ui.drawer.content/LastEmptySpace/LastEmptySpace/#androidx.compose.ui.Modifier#androidx.compose.ui.unit.Dp#kotlin.Function1[io.writeopia.sdk.model.action.Action.Move,kotlin.Unit]#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-last-empty-space/-last-empty-space.html
+$dokka.location:io.writeopia.ui.drawer.content/LastEmptySpace/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-last-empty-space/-step.html
+$dokka.location:io.writeopia.ui.drawer.content/RowGroupDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-row-group-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.content/RowGroupDrawer/RowGroupDrawer/#io.writeopia.ui.drawer.StoryStepDrawer#androidx.compose.ui.Modifier/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-row-group-drawer/-row-group-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content/RowGroupDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-row-group-drawer/-step.html
+$dokka.location:io.writeopia.ui.drawer.content/SpaceDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-space-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.content/SpaceDrawer/SpaceDrawer/#kotlin.Function1[io.writeopia.sdk.model.action.Action.Move,kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-space-drawer/-space-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content/SpaceDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-space-drawer/-step.html
+$dokka.location:io.writeopia.ui.drawer.content/TextDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-text-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.content/TextDrawer/Text/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo#androidx.compose.foundation.interaction.MutableInteractionSource#androidx.compose.ui.focus.FocusRequester?#kotlin.Function1[kotlin.Function0[kotlin.Unit],kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-text-drawer/-text.html
+$dokka.location:io.writeopia.ui.drawer.content/TextDrawer/TextDrawer/#androidx.compose.ui.Modifier#kotlin.Function4[androidx.compose.ui.input.key.KeyEvent,androidx.compose.ui.text.input.TextFieldValue,io.writeopia.sdk.models.story.StoryStep,kotlin.Int,kotlin.Boolean]#kotlin.Function1[io.writeopia.sdk.models.story.StoryStep,androidx.compose.ui.text.TextStyle]#kotlin.Function1[io.writeopia.sdk.model.action.Action.StoryStateChange,kotlin.Unit]#io.writeopia.ui.edition.TextCommandHandler#kotlin.Boolean#kotlin.Function1[io.writeopia.sdk.model.action.Action.LineBreak,kotlin.Unit]#kotlin.Function1[androidx.compose.ui.focus.FocusState,kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-text-drawer/-text-drawer.html
+$dokka.location:io.writeopia.ui.drawer.content/TextDrawer/onFocusChanged/#/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-text-drawer/on-focus-changed.html
+$dokka.location:io.writeopia.ui.drawer.content/TextItemDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-text-item-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.content/TextItemDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-text-item-drawer/[jvm]-step.html
+$dokka.location:io.writeopia.ui.drawer.content/TextItemDrawer/TextItemDrawer/#androidx.compose.ui.Modifier#androidx.compose.ui.graphics.Color#kotlin.Boolean#kotlin.Function2[kotlin.Boolean,kotlin.Int,kotlin.Unit]#androidx.compose.ui.unit.Dp#kotlin.Function2[io.writeopia.sdk.models.story.StoryStep,io.writeopia.sdk.model.draw.DrawInfo,kotlin.Unit]?#kotlin.Function1[androidx.compose.foundation.layout.RowScope,io.writeopia.ui.drawer.SimpleTextDrawer]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.content/-text-item-drawer/-text-item-drawer.html
+$dokka.location:io.writeopia.ui.drawer.factory////PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/index.html
+$dokka.location:io.writeopia.ui.drawer.factory//defaultHxDrawers/#io.writeopia.ui.manager.WriteopiaStateManager#androidx.compose.ui.Modifier#androidx.compose.ui.unit.Dp#kotlin.Function2[androidx.compose.foundation.layout.RowScope,androidx.compose.ui.unit.TextUnit,io.writeopia.ui.drawer.SimpleTextDrawer]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/default-hx-drawers.html
+$dokka.location:io.writeopia.ui.drawer.factory/CommonDrawers///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-common-drawers/index.html
+$dokka.location:io.writeopia.ui.drawer.factory/CommonDrawers/create/#io.writeopia.ui.manager.WriteopiaStateManager#androidx.compose.ui.unit.Dp#androidx.compose.ui.graphics.Shape#kotlin.Boolean#androidx.compose.ui.graphics.Color#kotlin.Function0[kotlin.Unit]#io.writeopia.ui.edition.TextCommandHandler#androidx.compose.ui.unit.Dp#kotlin.Function2[androidx.compose.ui.input.key.KeyEvent,androidx.compose.ui.text.input.TextFieldValue,kotlin.Boolean]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-common-drawers/create.html
+$dokka.location:io.writeopia.ui.drawer.factory/DefaultDrawersDesktop///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-default-drawers-desktop/index.html
+$dokka.location:io.writeopia.ui.drawer.factory/DefaultDrawersDesktop/create/#io.writeopia.ui.manager.WriteopiaStateManager#androidx.compose.ui.graphics.Shape#kotlin.Boolean#androidx.compose.ui.graphics.Color#kotlin.Function0[kotlin.Unit]#io.writeopia.ui.edition.TextCommandHandler/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-default-drawers-desktop/create.html
+$dokka.location:io.writeopia.ui.drawer.factory/DefaultDrawersJs///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-default-drawers-js/index.html
+$dokka.location:io.writeopia.ui.drawer.factory/DefaultDrawersJs/create/#io.writeopia.ui.manager.WriteopiaStateManager#androidx.compose.ui.graphics.Shape#kotlin.Boolean#androidx.compose.ui.graphics.Color#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-default-drawers-js/create.html
+$dokka.location:io.writeopia.ui.drawer.factory/DefaultDrawersJs/defaultHxDrawers/#io.writeopia.ui.manager.WriteopiaStateManager#kotlin.Function2[androidx.compose.foundation.layout.RowScope,androidx.compose.ui.unit.TextUnit,io.writeopia.ui.drawer.SimpleTextDrawer]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-default-drawers-js/default-hx-drawers.html
+$dokka.location:io.writeopia.ui.drawer.factory/DefaultDrawersJs/jsMessageDrawer/androidx.compose.foundation.layout.RowScope#io.writeopia.ui.manager.WriteopiaStateManager#androidx.compose.ui.unit.TextUnit#kotlin.Boolean/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-default-drawers-js/js-message-drawer.html
+$dokka.location:io.writeopia.ui.drawer.factory/DrawersFactory///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-drawers-factory/index.html
+$dokka.location:io.writeopia.ui.drawer.factory/DrawersFactory/create/#io.writeopia.ui.manager.WriteopiaStateManager#androidx.compose.ui.graphics.Shape#kotlin.Boolean#androidx.compose.ui.graphics.Color#kotlin.Function0[kotlin.Unit]#io.writeopia.ui.edition.TextCommandHandler/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-drawers-factory/create.html
+$dokka.location:io.writeopia.ui.drawer.factory/KeyEventListenerFactory///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-key-event-listener-factory/index.html
+$dokka.location:io.writeopia.ui.drawer.factory/KeyEventListenerFactory/create/#io.writeopia.ui.manager.WriteopiaStateManager#kotlin.Function2[androidx.compose.ui.input.key.KeyEvent,androidx.compose.ui.text.input.TextFieldValue,kotlin.Boolean]#kotlin.Boolean/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-key-event-listener-factory/create.html
+$dokka.location:io.writeopia.ui.drawer.factory/KeyEventListenerFactory/js/#io.writeopia.ui.manager.WriteopiaStateManager#kotlin.Function1[androidx.compose.ui.input.key.KeyEvent,kotlin.Boolean]#kotlin.Function2[androidx.compose.ui.input.key.KeyEvent,androidx.compose.ui.text.input.TextFieldValue,kotlin.Boolean]#kotlin.Boolean/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.factory/-key-event-listener-factory/js.html
+$dokka.location:io.writeopia.ui.drawer.preview////PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/index.html
+$dokka.location:io.writeopia.ui.drawer.preview/CheckItemPreviewDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-check-item-preview-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.preview/CheckItemPreviewDrawer/CheckItemPreviewDrawer/#androidx.compose.ui.Modifier/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-check-item-preview-drawer/-check-item-preview-drawer.html
+$dokka.location:io.writeopia.ui.drawer.preview/CheckItemPreviewDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-check-item-preview-drawer/-step.html
+$dokka.location:io.writeopia.ui.drawer.preview/HeaderPreviewDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-header-preview-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.preview/HeaderPreviewDrawer/HeaderPreviewDrawer/#androidx.compose.ui.Modifier#androidx.compose.ui.text.TextStyle?/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-header-preview-drawer/-header-preview-drawer.html
+$dokka.location:io.writeopia.ui.drawer.preview/HeaderPreviewDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-header-preview-drawer/-step.html
+$dokka.location:io.writeopia.ui.drawer.preview/TextPreviewDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-text-preview-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.preview/TextPreviewDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-text-preview-drawer/-step.html
+$dokka.location:io.writeopia.ui.drawer.preview/TextPreviewDrawer/TextPreviewDrawer/#androidx.compose.ui.Modifier#kotlin.Function0[androidx.compose.ui.text.TextStyle]#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-text-preview-drawer/-text-preview-drawer.html
+$dokka.location:io.writeopia.ui.drawer.preview/UnOrderedListItemPreviewDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-un-ordered-list-item-preview-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer.preview/UnOrderedListItemPreviewDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-un-ordered-list-item-preview-drawer/-step.html
+$dokka.location:io.writeopia.ui.drawer.preview/UnOrderedListItemPreviewDrawer/UnOrderedListItemPreviewDrawer/#androidx.compose.ui.Modifier#androidx.compose.ui.Modifier#kotlin.String#kotlin.Function0[androidx.compose.ui.text.TextStyle]#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.preview/-un-ordered-list-item-preview-drawer/-un-ordered-list-item-preview-drawer.html
+$dokka.location:io.writeopia.ui.drawer.video////PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.video/index.html
+$dokka.location:io.writeopia.ui.drawer.video/VideoFrameConfig///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.video/-video-frame-config/index.html
+$dokka.location:io.writeopia.ui.drawer.video/VideoFrameConfig/configCoilForVideoFrame/#android.content.Context/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer.video/-video-frame-config/config-coil-for-video-frame.html
+$dokka.location:io.writeopia.ui.drawer////PointingToDeclaration/-writeopia/io.writeopia.ui.drawer/index.html
+$dokka.location:io.writeopia.ui.drawer/SimpleTextDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer/-simple-text-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer/SimpleTextDrawer/Text/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo#androidx.compose.foundation.interaction.MutableInteractionSource#androidx.compose.ui.focus.FocusRequester?#kotlin.Function1[kotlin.Function0[kotlin.Unit],kotlin.Unit]/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer/-simple-text-drawer/-text.html
+$dokka.location:io.writeopia.ui.drawer/SimpleTextDrawer/onFocusChanged/#/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer/-simple-text-drawer/on-focus-changed.html
+$dokka.location:io.writeopia.ui.drawer/StoryStepDrawer///PointingToDeclaration/-writeopia/io.writeopia.ui.drawer/-story-step-drawer/index.html
+$dokka.location:io.writeopia.ui.drawer/StoryStepDrawer/Step/#io.writeopia.sdk.models.story.StoryStep#io.writeopia.sdk.model.draw.DrawInfo/PointingToDeclaration/-writeopia/io.writeopia.ui.drawer/-story-step-drawer/-step.html
+$dokka.location:io.writeopia.ui.edition////PointingToDeclaration/-writeopia/io.writeopia.ui.edition/index.html
+$dokka.location:io.writeopia.ui.edition/TextCommandHandler.Companion///PointingToDeclaration/-writeopia/io.writeopia.ui.edition/-text-command-handler/-companion/index.html
+$dokka.location:io.writeopia.ui.edition/TextCommandHandler.Companion/defaultCommands/#io.writeopia.ui.manager.WriteopiaStateManager/PointingToDeclaration/-writeopia/io.writeopia.ui.edition/-text-command-handler/-companion/default-commands.html
+$dokka.location:io.writeopia.ui.edition/TextCommandHandler.Companion/noCommands/#/PointingToDeclaration/-writeopia/io.writeopia.ui.edition/-text-command-handler/-companion/no-commands.html
+$dokka.location:io.writeopia.ui.edition/TextCommandHandler///PointingToDeclaration/-writeopia/io.writeopia.ui.edition/-text-command-handler/index.html
+$dokka.location:io.writeopia.ui.edition/TextCommandHandler/TextCommandHandler/#kotlin.collections.Map[io.writeopia.sdk.models.command.Command,kotlin.Function2[io.writeopia.sdk.models.story.StoryStep,kotlin.Int,kotlin.Unit]]/PointingToDeclaration/-writeopia/io.writeopia.ui.edition/-text-command-handler/-text-command-handler.html
+$dokka.location:io.writeopia.ui.edition/TextCommandHandler/handleCommand/#kotlin.String#io.writeopia.sdk.models.story.StoryStep#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.ui.edition/-text-command-handler/handle-command.html
+$dokka.location:io.writeopia.ui.manager////PointingToDeclaration/-writeopia/io.writeopia.ui.manager/index.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager.Companion///PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/-companion/index.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager.Companion/create/#io.writeopia.sdk.manager.WriteopiaManager#kotlinx.coroutines.CoroutineDispatcher#kotlin.Function1[kotlin.collections.Map[kotlin.Int,kotlin.collections.List[io.writeopia.sdk.models.story.StoryStep]],kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]]#io.writeopia.sdk.manager.MovementHandler#io.writeopia.sdk.manager.ContentHandler#kotlinx.coroutines.CoroutineScope#io.writeopia.ui.backstack.BackstackManager#kotlin.coroutines.SuspendFunction0[kotlin.String]/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/-companion/create.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager///PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/index.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/WriteopiaStateManager/#kotlin.Function1[kotlin.collections.Map[kotlin.Int,kotlin.collections.List[io.writeopia.sdk.models.story.StoryStep]],kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]]#kotlinx.coroutines.CoroutineDispatcher#kotlinx.coroutines.CoroutineScope#io.writeopia.ui.backstack.BackstackManager#kotlin.coroutines.SuspendFunction0[kotlin.String]#io.writeopia.sdk.manager.WriteopiaManager/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/-writeopia-state-manager.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/changeStoryState/#io.writeopia.sdk.model.action.Action.StoryStateChange/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/change-story-state.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/changeStoryText/#io.writeopia.sdk.model.action.Action.StoryStateChange/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/change-story-text.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/changeStoryType/#kotlin.Int#io.writeopia.sdk.models.story.StoryType#io.writeopia.sdk.models.command.CommandInfo?/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/change-story-type.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/clickAtTheEnd/#/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/click-at-the-end.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/currentDocument/#/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/current-document.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/currentStory/#/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/current-story.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/deleteSelection/#/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/delete-selection.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/isInitialized/#/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/is-initialized.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/liveSync/#io.writeopia.sdk.shared_edition.SharedEditionManager/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/live-sync.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/loadDocument/#io.writeopia.sdk.models.document.Document/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/load-document.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/mergeRequest/#io.writeopia.sdk.model.action.Action.Merge/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/merge-request.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/moveRequest/#io.writeopia.sdk.model.action.Action.Move/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/move-request.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/newStory/#kotlin.String#kotlin.String#kotlin.Boolean/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/new-story.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/nextFocusOrCreate/#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/next-focus-or-create.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/onClear/#/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/on-clear.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/onDelete/#io.writeopia.sdk.model.action.Action.DeleteStory/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/on-delete.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/onEditPositions/#/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/on-edit-positions.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/onLineBreak/#io.writeopia.sdk.model.action.Action.LineBreak/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/on-line-break.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/onSelected/#kotlin.Boolean#kotlin.Int/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/on-selected.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/redo/#/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/redo.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/saveOnStoryChanges/#io.writeopia.sdk.manager.DocumentTracker/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/save-on-story-changes.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/scrollToPosition/#/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/scroll-to-position.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/toDraw/#/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/to-draw.html
+$dokka.location:io.writeopia.ui.manager/WriteopiaStateManager/undo/#/PointingToDeclaration/-writeopia/io.writeopia.ui.manager/-writeopia-state-manager/undo.html
+$dokka.location:io.writeopia.ui.previews.drawer.content////PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.content/index.html
+$dokka.location:io.writeopia.ui.previews.drawer.content//CheckItemDrawerStepPreview/#/PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.content/-check-item-drawer-step-preview.html
+$dokka.location:io.writeopia.ui.previews.drawer.content//DesktopMessageDrawerPreview/#/PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.content/-desktop-message-drawer-preview.html
+$dokka.location:io.writeopia.ui.previews.drawer.content//HeaderDrawerStepPreview/#/PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.content/-header-drawer-step-preview.html
+$dokka.location:io.writeopia.ui.previews.drawer.content//HeaderDrawerStepPreviewNoColor/#/PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.content/-header-drawer-step-preview-no-color.html
+$dokka.location:io.writeopia.ui.previews.drawer.preview////PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.preview/index.html
+$dokka.location:io.writeopia.ui.previews.drawer.preview//HeaderPreviewDrawerPreview/#/PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.preview/-header-preview-drawer-preview.html
+$dokka.location:io.writeopia.ui.previews.drawer.preview//TextPreviewDrawerPreview/#/PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.preview/-text-preview-drawer-preview.html
+$dokka.location:io.writeopia.ui.previews.drawer.preview//UnOrderedListItemDrawerPreview/#/PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.preview/-un-ordered-list-item-drawer-preview.html
+$dokka.location:io.writeopia.ui.previews.drawer.preview//UnOrderedListItemPreviewDrawerPreview/#/PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.preview/-un-ordered-list-item-preview-drawer-preview.html
+$dokka.location:io.writeopia.ui.previews.drawer.uicomponents////PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.uicomponents/index.html
+$dokka.location:io.writeopia.ui.previews.drawer.uicomponents//EditionScreenPreview/#/PointingToDeclaration/-writeopia/io.writeopia.ui.previews.drawer.uicomponents/-edition-screen-preview.html
+$dokka.location:io.writeopia.ui.utils////PointingToDeclaration/-writeopia/io.writeopia.ui.utils/index.html
+$dokka.location:io.writeopia.ui.utils//codeBlockStyle/#/PointingToDeclaration/-writeopia/io.writeopia.ui.utils/code-block-style.html
+$dokka.location:io.writeopia.ui.utils//defaultTextStyle/#io.writeopia.sdk.models.story.StoryStep/PointingToDeclaration/-writeopia/io.writeopia.ui.utils/default-text-style.html
+$dokka.location:io.writeopia.ui////PointingToDeclaration/-writeopia/io.writeopia.ui/index.html
+$dokka.location:io.writeopia.ui//WriteopiaEditor/#androidx.compose.ui.Modifier#androidx.compose.foundation.layout.PaddingValues#kotlin.Boolean#androidx.compose.foundation.lazy.LazyListState#kotlin.collections.Map[kotlin.Int,io.writeopia.ui.drawer.StoryStepDrawer]#io.writeopia.sdk.model.story.DrawState/PointingToDeclaration/-writeopia/io.writeopia.ui/-writeopia-editor.html
+$dokka.location:io.writeopia.ui//WriteopiaEditorBox/#androidx.compose.ui.Modifier#kotlin.Boolean#kotlin.collections.Map[kotlin.Int,io.writeopia.ui.drawer.StoryStepDrawer]#io.writeopia.sdk.model.story.DrawState/PointingToDeclaration/-writeopia/io.writeopia.ui/-writeopia-editor-box.html
+io.writeopia.sdk.drawer.content
+io.writeopia.sdk.drawer.factory
+io.writeopia.sdk.export
+io.writeopia.sdk.filter
+io.writeopia.sdk.import_document
+io.writeopia.sdk.manager
+io.writeopia.sdk.model.action
+io.writeopia.sdk.model.document
+io.writeopia.sdk.model.draganddrop
+io.writeopia.sdk.model.draw
+io.writeopia.sdk.model.story
+io.writeopia.sdk.models.command
+io.writeopia.sdk.models.document
+io.writeopia.sdk.models.id
+io.writeopia.sdk.models.story
+io.writeopia.sdk.network.injector
+io.writeopia.sdk.network.notes
+io.writeopia.sdk.network.oauth
+io.writeopia.sdk.network.websocket
+io.writeopia.sdk.normalization.builder
+io.writeopia.sdk.normalization.merge
+io.writeopia.sdk.normalization.merge.steps
+io.writeopia.sdk.normalization.unchange
+io.writeopia.sdk.persistence.converter
+io.writeopia.sdk.persistence.core
+io.writeopia.sdk.persistence.core.di
+io.writeopia.sdk.persistence.core.extensions
+io.writeopia.sdk.persistence.core.repository
+io.writeopia.sdk.persistence.core.sorting
+io.writeopia.sdk.persistence.core.tracker
+io.writeopia.sdk.persistence.dao
+io.writeopia.sdk.persistence.dao.room
+io.writeopia.sdk.persistence.entity.document
+io.writeopia.sdk.persistence.entity.story
+io.writeopia.sdk.persistence.parse
+io.writeopia.sdk.persistence.sqldelight.dao
+io.writeopia.sdk.persistence.sqldelight.dao.sql
+io.writeopia.sdk.preview
+io.writeopia.sdk.repository
+io.writeopia.sdk.serialization.data
+io.writeopia.sdk.serialization.extensions
+io.writeopia.sdk.serialization.json
+io.writeopia.sdk.serialization.request
+io.writeopia.sdk.serialization.serializers
+io.writeopia.sdk.shared_edition
+io.writeopia.sdk.utils.alias
+io.writeopia.sdk.utils.extensions
+io.writeopia.sdk.utils.iterables
+io.writeopia.ui
+io.writeopia.ui.backstack
+io.writeopia.ui.components
+io.writeopia.ui.draganddrop.target
+io.writeopia.ui.drawer
+io.writeopia.ui.drawer.content
+io.writeopia.ui.drawer.content.js
+io.writeopia.ui.drawer.factory
+io.writeopia.ui.drawer.preview
+io.writeopia.ui.drawer.video
+io.writeopia.ui.edition
+io.writeopia.ui.manager
+io.writeopia.ui.previews.drawer.content
+io.writeopia.ui.previews.drawer.preview
+io.writeopia.ui.previews.drawer.uicomponents
+io.writeopia.ui.utils
+
