@@ -58,7 +58,7 @@
                 <div class="sidebar--inner" id="sideMenu"></div>
             </div>
             <div id="main">
-<div class="main-content" data-page-type="member" id="content" pageids="writeopia::io.writeopia.sdk.manager/ContentHandler/ContentHandler/#kotlin.collections.Set[kotlin.Int]#kotlin.Function1[kotlin.collections.Map[kotlin.Int,kotlin.collections.List[io.writeopia.sdk.models.story.StoryStep]],kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]]#kotlin.Function1[io.writeopia.sdk.models.story.StoryType,io.writeopia.sdk.models.story.StoryType]/PointingToDeclaration//166039565">
+<div class="main-content" data-page-type="member" id="content" pageids="writeopia::io.writeopia.sdk.manager/ContentHandler/ContentHandler/#kotlin.collections.Set[kotlin.Int]#kotlin.Function1[kotlin.collections.Map[kotlin.Int,kotlin.collections.List[io.writeopia.sdk.models.story.StoryStep]],kotlin.collections.Map[kotlin.Int,io.writeopia.sdk.models.story.StoryStep]]#kotlin.Function1[io.writeopia.sdk.models.story.StoryType,io.writeopia.sdk.models.story.StoryType]#kotlin.Function1[io.writeopia.sdk.models.story.StoryStep,kotlin.Boolean]/PointingToDeclaration//166039565">
   <div class="breadcrumbs"><a href="../../index.html">writeopia</a><span class="delimiter">/</span><a href="../index.html">io.writeopia.sdk.manager</a><span class="delimiter">/</span><a href="index.html">ContentHandler</a><span class="delimiter">/</span><span class="current">ContentHandler</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Content</span><wbr><span><span>Handler</span></span></h1>
@@ -66,13 +66,11 @@
   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">focusableTypes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt;</span><span class="token operator"> = </span>setOf(
         StoryTypes.TITLE.type.number,
         StoryTypes.TEXT.type.number,
-        StoryTypes.H1.type.number,
-        StoryTypes.H2.type.number,
-        StoryTypes.H3.type.number,
-        StoryTypes.H4.type.number,
         StoryTypes.CHECK_ITEM.type.number,
         StoryTypes.UNORDERED_LIST_ITEM.type.number,
-    )<span class="token punctuation">, </span></span><span class="parameter ">stepsNormalizer<span class="token operator">: </span><a href="../../io.writeopia.sdk.utils.alias/-units-normalization-map/index.html">UnitsNormalizationMap</a><span class="token punctuation">, </span></span><span class="parameter ">lineBreakMap<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-type/index.html">StoryType</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-type/index.html">StoryType</a><span class="token operator"> = </span>::defaultLineBreakMap</span></span><span class="token punctuation">)</span></div></div></div>
+    )<span class="token punctuation">, </span></span><span class="parameter ">stepsNormalizer<span class="token operator">: </span><a href="../../io.writeopia.sdk.utils.alias/-units-normalization-map/index.html">UnitsNormalizationMap</a><span class="token punctuation">, </span></span><span class="parameter ">lineBreakMap<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-type/index.html">StoryType</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-type/index.html">StoryType</a><span class="token operator"> = </span>::defaultLineBreakMap<span class="token punctuation">, </span></span><span class="parameter ">isTextStory<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span>{ story -&gt;
+        focusableTypes.contains(story.type.number)
+    }</span></span><span class="token punctuation">)</span></div></div></div>
 </div>
       <div class="footer">
         <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>

@@ -81,13 +81,11 @@
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-content-handler/index.html">ContentHandler</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">focusableTypes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt;</span><span class="token operator"> = </span>setOf(
         StoryTypes.TITLE.type.number,
         StoryTypes.TEXT.type.number,
-        StoryTypes.H1.type.number,
-        StoryTypes.H2.type.number,
-        StoryTypes.H3.type.number,
-        StoryTypes.H4.type.number,
         StoryTypes.CHECK_ITEM.type.number,
         StoryTypes.UNORDERED_LIST_ITEM.type.number,
-    )<span class="token punctuation">, </span></span><span class="parameter ">stepsNormalizer<span class="token operator">: </span><a href="../io.writeopia.sdk.utils.alias/-units-normalization-map/index.html">UnitsNormalizationMap</a><span class="token punctuation">, </span></span><span class="parameter ">lineBreakMap<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../writeopia_models/io.writeopia.sdk.models.story/-story-type/index.html">StoryType</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../writeopia_models/io.writeopia.sdk.models.story/-story-type/index.html">StoryType</a><span class="token operator"> = </span>::defaultLineBreakMap</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Class dedicated to handle adding, deleting or changing StorySteps</p></div></div></div>
+    )<span class="token punctuation">, </span></span><span class="parameter ">stepsNormalizer<span class="token operator">: </span><a href="../io.writeopia.sdk.utils.alias/-units-normalization-map/index.html">UnitsNormalizationMap</a><span class="token punctuation">, </span></span><span class="parameter ">lineBreakMap<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../writeopia_models/io.writeopia.sdk.models.story/-story-type/index.html">StoryType</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../writeopia_models/io.writeopia.sdk.models.story/-story-type/index.html">StoryType</a><span class="token operator"> = </span>::defaultLineBreakMap<span class="token punctuation">, </span></span><span class="parameter ">isTextStory<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span>{ story -&gt;
+        focusableTypes.contains(story.type.number)
+    }</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Class dedicated to handle adding, deleting or changing StorySteps</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -149,8 +147,8 @@
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-focus-handler/index.html">FocusHandler</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">isMessageFn<span class="token operator">: </span><span class="token punctuation">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span>{ typeNumber -&gt;
         typeNumber == StoryTypes.TEXT.type.number ||
-                typeNumber == StoryTypes.TEXT_BOX.type.number ||
-                typeNumber == StoryTypes.CHECK_ITEM.type.number
+            typeNumber == StoryTypes.TEXT_BOX.type.number ||
+            typeNumber == StoryTypes.CHECK_ITEM.type.number
     }</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This class is responsible to control the focus of the edition of story. (example: If the text of a story is being edited, this story has the current focus.)</p></div></div></div>
                 </div>
               </div>

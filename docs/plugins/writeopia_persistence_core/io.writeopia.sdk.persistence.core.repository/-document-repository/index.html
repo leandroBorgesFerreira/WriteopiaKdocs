@@ -62,7 +62,7 @@
   <div class="breadcrumbs"><a href="../../index.html">plugin:writeopia_persistence_core</a><span class="delimiter">/</span><a href="../index.html">io.writeopia.sdk.persistence.core.repository</a><span class="delimiter">/</span><span class="current">DocumentRepository</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Document</span><wbr><span><span>Repository</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">DocumentRepository</a> : <a href="../../../../writeopia/io.writeopia.sdk.manager/-document-update/index.html">DocumentUpdate</a></div><p class="paragraph">DocumentRepository is the repository for using simple CRUD operations in <a href="../../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a>. The implementations of this interface shouldn't control order (sorting) or oder configurations, those need to be passed as parameters.</p></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">DocumentRepository</a> : <a href="../../../../writeopia/io.writeopia.sdk.manager/-document-update/index.html">DocumentUpdate</a></div><p class="paragraph">DocumentRepository is the repository for using simple CRUD operations in <a href="../../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a>. The implementations of this interface shouldn't control order (sorting) or oder configurations, those need to be passed as parameters.</p><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-in-memory-document-repository/index.html">InMemoryDocumentRepository</a></div></span></div><div></div></div></div></div></div></div>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
@@ -99,6 +99,21 @@
               </div>
             </div>
           </div>
+<a data-name="570167045%2FFunctions%2F-568397837" anchor-label="deleteDocumentByFolder" id="570167045%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="delete-document-by-folder.html"><span>delete</span><wbr><span>Document</span><wbr><span>By</span><wbr><span><span>Folder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="570167045%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="delete-document-by-folder.html"><span class="token function">deleteDocumentByFolder</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">folderId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
 <a data-name="1845478831%2FFunctions%2F-568397837" anchor-label="deleteDocumentByIds" id="1845478831%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
           <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
             <div class="main-subrow keyValue ">
@@ -110,6 +125,36 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="delete-document-by-ids.html"><span class="token function">deleteDocumentByIds</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">ids<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1648878046%2FFunctions%2F-568397837" anchor-label="favoriteDocumentByIds" id="1648878046%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="favorite-document-by-ids.html"><span>favorite</span><wbr><span>Document</span><wbr><span>By</span><wbr><span><span>Ids</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1648878046%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="favorite-document-by-ids.html"><span class="token function">favoriteDocumentByIds</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">ids<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="45665868%2FFunctions%2F-568397837" anchor-label="listenForDocumentsByParentId" id="45665868%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="listen-for-documents-by-parent-id.html"><span>listen</span><wbr><span>For</span><wbr><span>Documents</span><wbr><span>By</span><wbr><span>Parent</span><wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="45665868%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="listen-for-documents-by-parent-id.html"><span class="token function">listenForDocumentsByParentId</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">parentId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">coroutineScope<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineScope///PointingToDeclaration/">CoroutineScope</span><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/Flow///PointingToDeclaration/">Flow</span><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span><span class="token operator">&gt;</span></div></div></div>
                 </div>
               </div>
             </div>
@@ -129,17 +174,77 @@
               </div>
             </div>
           </div>
-<a data-name="-1946815455%2FFunctions%2F-568397837" anchor-label="loadDocumentsForUser" id="-1946815455%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+<a data-name="1385958458%2FFunctions%2F-568397837" anchor-label="loadDocumentByIds" id="1385958458%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
           <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
-                  <div><a href="load-documents-for-user.html"><span>load</span><wbr><span>Documents</span><wbr><span>For</span><wbr><span><span>User</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1946815455%2FFunctions%2F-568397837"></span>
+                  <div><a href="load-document-by-ids.html"><span>load</span><wbr><span>Document</span><wbr><span>By</span><wbr><span><span>Ids</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1385958458%2FFunctions%2F-568397837"></span>
                     <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="load-documents-for-user.html"><span class="token function">loadDocumentsForUser</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">orderBy<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">userId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a><span class="token operator">&gt;</span></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="load-document-by-ids.html"><span class="token function">loadDocumentByIds</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">ids<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="792945154%2FFunctions%2F-568397837" anchor-label="loadDocumentsByParentId" id="792945154%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="load-documents-by-parent-id.html"><span>load</span><wbr><span>Documents</span><wbr><span>By</span><wbr><span>Parent</span><wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="792945154%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="load-documents-by-parent-id.html"><span class="token function">loadDocumentsByParentId</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">parentId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2107678689%2FFunctions%2F-568397837" anchor-label="loadDocumentsForFolder" id="-2107678689%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="load-documents-for-folder.html"><span>load</span><wbr><span>Documents</span><wbr><span>For</span><wbr><span><span>Folder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2107678689%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="load-documents-for-folder.html"><span class="token function">loadDocumentsForFolder</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">folderId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1280355388%2FFunctions%2F-568397837" anchor-label="loadDocumentsForUser" id="1280355388%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="load-documents-for-user.html"><span>load</span><wbr><span>Documents</span><wbr><span>For</span><wbr><span><span>User</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1280355388%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="load-documents-for-user.html"><span class="token function">loadDocumentsForUser</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">userId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2146994522%2FFunctions%2F-568397837" anchor-label="loadDocumentsForUserAfterTime" id="2146994522%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="load-documents-for-user-after-time.html"><span>load</span><wbr><span>Documents</span><wbr><span>For</span><wbr><span>User</span><wbr><span>After</span><wbr><span><span>Time</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2146994522%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="load-documents-for-user-after-time.html"><span class="token function">loadDocumentsForUserAfterTime</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">orderBy<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">userId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">instant<span class="token operator">: </span><span data-unresolved-link="kotlinx.datetime/Instant///PointingToDeclaration/">Instant</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a><span class="token operator">&gt;</span></div></div></div>
                 </div>
               </div>
             </div>
@@ -159,6 +264,21 @@
               </div>
             </div>
           </div>
+<a data-name="1414003146%2FFunctions%2F-568397837" anchor-label="loadFavDocumentsForUser" id="1414003146%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="load-fav-documents-for-user.html"><span>load</span><wbr><span>Fav</span><wbr><span>Documents</span><wbr><span>For</span><wbr><span><span>User</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1414003146%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="load-fav-documents-for-user.html"><span class="token function">loadFavDocumentsForUser</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">orderBy<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">userId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
 <a data-name="1046462184%2FFunctions%2F-568397837" anchor-label="moveDocumentsToNewUser" id="1046462184%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
           <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
             <div class="main-subrow keyValue ">
@@ -170,6 +290,36 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="move-documents-to-new-user.html"><span class="token function">moveDocumentsToNewUser</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">oldUserId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">newUserId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Moves all tickets from one user to another. Use this we would like to pass all the data of documents to another user. When the offline user becomes a new online user, all documents should be moved to the new online user.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1984264839%2FFunctions%2F-568397837" anchor-label="moveToFolder" id="-1984264839%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="move-to-folder.html"><span>move</span><wbr><span>To</span><wbr><span><span>Folder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1984264839%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="move-to-folder.html"><span class="token function">moveToFolder</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">documentId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">parentId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1970363885%2FFunctions%2F-568397837" anchor-label="refreshDocuments" id="1970363885%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="refresh-documents.html"><span>refresh</span><wbr><span><span>Documents</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1970363885%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="refresh-documents.html"><span class="token function">refreshDocuments</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
                 </div>
               </div>
             </div>
@@ -215,6 +365,36 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="save-story-step.html"><span class="token function">saveStoryStep</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">storyStep<span class="token operator">: </span><a href="../../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a><span class="token punctuation">, </span></span><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">documentId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1014792251%2FFunctions%2F-568397837" anchor-label="stopListeningForFoldersByParentId" id="-1014792251%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="stop-listening-for-folders-by-parent-id.html"><span>stop</span><wbr><span>Listening</span><wbr><span>For</span><wbr><span>Folders</span><wbr><span>By</span><wbr><span>Parent</span><wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1014792251%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="stop-listening-for-folders-by-parent-id.html"><span class="token function">stopListeningForFoldersByParentId</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">parentId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1878549691%2FFunctions%2F-568397837" anchor-label="unFavoriteDocumentByIds" id="-1878549691%2FFunctions%2F-568397837" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain" data-filterable-set=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="un-favorite-document-by-ids.html"><span>un</span><wbr><span>Favorite</span><wbr><span>Document</span><wbr><span>By</span><wbr><span><span>Ids</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1878549691%2FFunctions%2F-568397837"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":plugins:writeopia_persistence_core:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="un-favorite-document-by-ids.html"><span class="token function">unFavoriteDocumentByIds</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">ids<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
                 </div>
               </div>
             </div>
