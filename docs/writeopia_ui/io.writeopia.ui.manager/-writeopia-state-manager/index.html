@@ -64,26 +64,26 @@
     <h1 class="cover"><span>Writeopia</span><wbr><span>State</span><wbr><span><span>Manager</span></span></h1>
     <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">WriteopiaStateManager</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">stepsNormalizer<span class="token operator">: </span><a href="../../../writeopia/io.writeopia.sdk.utils.alias/-units-normalization-map/index.html">UnitsNormalizationMap</a><span class="token operator"> = </span>StepsMapNormalizationBuilder.reduceNormalizations {
             defaultNormalizers()
-        }<span class="token punctuation">, </span></span><span class="parameter ">dispatcher<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineDispatcher///PointingToDeclaration/">CoroutineDispatcher</span><span class="token punctuation">, </span></span><span class="parameter ">coroutineScope<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineScope///PointingToDeclaration/">CoroutineScope</span><span class="token operator"> = </span>CoroutineScope(EmptyCoroutineContext)<span class="token punctuation">, </span></span><span class="parameter ">backStackManager<span class="token operator">: </span><a href="../../io.writeopia.ui.backstack/-backstack-manager/index.html">BackstackManager</a><span class="token punctuation">, </span></span><span class="parameter ">userId<span class="token operator">: </span><span class="token keyword">suspend </span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span>{ "no_user_id_provided" }<span class="token punctuation">, </span></span><span class="parameter ">writeopiaManager<span class="token operator">: </span><a href="../../../writeopia/io.writeopia.sdk.manager/-writeopia-manager/index.html">WriteopiaManager</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>selectionState<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/StateFlow///PointingToDeclaration/">StateFlow</span><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">keyboardEventFlow<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/Flow///PointingToDeclaration/">Flow</span><span class="token operator">&lt;</span><a href="../../io.writeopia.ui.keyboard/-keyboard-event/index.html">KeyboardEvent</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span> : <a href="../../io.writeopia.ui.backstack/-backstack-handler/index.html">BackstackHandler</a>, <a href="../../io.writeopia.ui.backstack/-backstack-inform/index.html">BackstackInform</a></div><p class="paragraph">This is the entry class of the framework. It follows the Controller pattern, redirecting all the call to another class responsible for the part of the SDK requested.</p></div></div>
+        }<span class="token punctuation">, </span></span><span class="parameter ">dispatcher<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineDispatcher///PointingToDeclaration/">CoroutineDispatcher</span><span class="token punctuation">, </span></span><span class="parameter ">coroutineScope<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineScope///PointingToDeclaration/">CoroutineScope</span><span class="token operator"> = </span>CoroutineScope(EmptyCoroutineContext)<span class="token punctuation">, </span></span><span class="parameter ">backStackManager<span class="token operator">: </span><a href="../../io.writeopia.ui.backstack/-backstack-manager/index.html">BackstackManager</a><span class="token punctuation">, </span></span><span class="parameter ">userId<span class="token operator">: </span><span class="token keyword">suspend </span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span>{ "no_user_id_provided" }<span class="token punctuation">, </span></span><span class="parameter ">writeopiaManager<span class="token operator">: </span><a href="../../../writeopia/io.writeopia.sdk.manager/-writeopia-manager/index.html">WriteopiaManager</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>selectionState<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/StateFlow///PointingToDeclaration/">StateFlow</span><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">keyboardEventFlow<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/Flow///PointingToDeclaration/">Flow</span><span class="token operator">&lt;</span><a href="../../io.writeopia.ui.keyboard/-keyboard-event/index.html">KeyboardEvent</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">drawStateModify<span class="token operator">: </span><span class="token punctuation">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../io.writeopia.ui.model/-draw-story/index.html">DrawStory</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../io.writeopia.ui.model/-draw-story/index.html">DrawStory</a><span class="token operator">&gt;</span><span class="token operator"> = </span>StepsModifier::modify</span></span><span class="token punctuation">)</span> : <a href="../../io.writeopia.ui.backstack/-backstack-handler/index.html">BackstackHandler</a>, <a href="../../io.writeopia.ui.backstack/-backstack-inform/index.html">BackstackInform</a></div><p class="paragraph">This is the entry class of the framework. It follows the Controller pattern, redirecting all the call to another class responsible for the part of the SDK requested.</p></div></div>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
     <div class="tabs-section-body">
       <div data-togglable="CONSTRUCTOR">
         <h2 class="">Constructors</h2>
-        <div class="table"><a data-name="428486647%2FConstructors%2F66091928" anchor-label="WriteopiaStateManager" id="428486647%2FConstructors%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+        <div class="table"><a data-name="723134975%2FConstructors%2F66091928" anchor-label="WriteopiaStateManager" id="723134975%2FConstructors%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
           <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="-writeopia-state-manager.html"><span>Writeopia</span><wbr><span>State</span><wbr><span><span>Manager</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="428486647%2FConstructors%2F66091928"></span>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="723134975%2FConstructors%2F66091928"></span>
                     <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                   </span></span></div>
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">stepsNormalizer<span class="token operator">: </span><a href="../../../writeopia/io.writeopia.sdk.utils.alias/-units-normalization-map/index.html">UnitsNormalizationMap</a><span class="token operator"> = </span>StepsMapNormalizationBuilder.reduceNormalizations {
             defaultNormalizers()
-        }<span class="token punctuation">, </span></span><span class="parameter ">dispatcher<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineDispatcher///PointingToDeclaration/">CoroutineDispatcher</span><span class="token punctuation">, </span></span><span class="parameter ">coroutineScope<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineScope///PointingToDeclaration/">CoroutineScope</span><span class="token operator"> = </span>CoroutineScope(EmptyCoroutineContext)<span class="token punctuation">, </span></span><span class="parameter ">backStackManager<span class="token operator">: </span><a href="../../io.writeopia.ui.backstack/-backstack-manager/index.html">BackstackManager</a><span class="token punctuation">, </span></span><span class="parameter ">userId<span class="token operator">: </span><span class="token keyword">suspend </span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span>{ "no_user_id_provided" }<span class="token punctuation">, </span></span><span class="parameter ">writeopiaManager<span class="token operator">: </span><a href="../../../writeopia/io.writeopia.sdk.manager/-writeopia-manager/index.html">WriteopiaManager</a><span class="token punctuation">, </span></span><span class="parameter ">selectionState<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/StateFlow///PointingToDeclaration/">StateFlow</span><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">keyboardEventFlow<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/Flow///PointingToDeclaration/">Flow</span><span class="token operator">&lt;</span><a href="../../io.writeopia.ui.keyboard/-keyboard-event/index.html">KeyboardEvent</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+        }<span class="token punctuation">, </span></span><span class="parameter ">dispatcher<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineDispatcher///PointingToDeclaration/">CoroutineDispatcher</span><span class="token punctuation">, </span></span><span class="parameter ">coroutineScope<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineScope///PointingToDeclaration/">CoroutineScope</span><span class="token operator"> = </span>CoroutineScope(EmptyCoroutineContext)<span class="token punctuation">, </span></span><span class="parameter ">backStackManager<span class="token operator">: </span><a href="../../io.writeopia.ui.backstack/-backstack-manager/index.html">BackstackManager</a><span class="token punctuation">, </span></span><span class="parameter ">userId<span class="token operator">: </span><span class="token keyword">suspend </span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span>{ "no_user_id_provided" }<span class="token punctuation">, </span></span><span class="parameter ">writeopiaManager<span class="token operator">: </span><a href="../../../writeopia/io.writeopia.sdk.manager/-writeopia-manager/index.html">WriteopiaManager</a><span class="token punctuation">, </span></span><span class="parameter ">selectionState<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/StateFlow///PointingToDeclaration/">StateFlow</span><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">keyboardEventFlow<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/Flow///PointingToDeclaration/">Flow</span><span class="token operator">&lt;</span><a href="../../io.writeopia.ui.keyboard/-keyboard-event/index.html">KeyboardEvent</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">drawStateModify<span class="token operator">: </span><span class="token punctuation">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../io.writeopia.ui.model/-draw-story/index.html">DrawStory</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../io.writeopia.ui.model/-draw-story/index.html">DrawStory</a><span class="token operator">&gt;</span><span class="token operator"> = </span>StepsModifier::modify</span></span><span class="token punctuation">)</span></div></div></div>
                 </div>
               </div>
             </div>
@@ -151,7 +151,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">val </span><a href="current-document.html">currentDocument</a><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/Flow///PointingToDeclaration/">Flow</span><span class="token operator">&lt;</span><a href="../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">val </span><a href="current-document.html">currentDocument</a><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/StateFlow///PointingToDeclaration/">StateFlow</span><span class="token operator">&lt;</span><a href="../../../writeopia_models/io.writeopia.sdk.models.document/-document/index.html">Document</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
                 </div>
               </div>
             </div>
@@ -167,6 +167,21 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">val </span><a href="current-story.html">currentStory</a><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/StateFlow///PointingToDeclaration/">StateFlow</span><span class="token operator">&lt;</span><a href="../../../writeopia/io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1110727739%2FProperties%2F66091928" anchor-label="documentInfo" id="1110727739%2FProperties%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="document-info.html"><span>document</span><wbr><span><span>Info</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1110727739%2FProperties%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">val </span><a href="document-info.html">documentInfo</a><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/StateFlow///PointingToDeclaration/">StateFlow</span><span class="token operator">&lt;</span><a href="../../../writeopia/io.writeopia.sdk.model.document/-document-info/index.html">DocumentInfo</a><span class="token operator">&gt;</span></div></div></div>
                 </div>
               </div>
             </div>
@@ -226,7 +241,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">val </span><a href="to-draw.html">toDraw</a><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/Flow///PointingToDeclaration/">Flow</span><span class="token operator">&lt;</span><a href="../../../writeopia/io.writeopia.sdk.model.story/-draw-state/index.html">DrawState</a><span class="token operator">&gt;</span></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">val </span><a href="to-draw.html">toDraw</a><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/Flow///PointingToDeclaration/">Flow</span><span class="token operator">&lt;</span><a href="../../io.writeopia.ui.model/-draw-state/index.html">DrawState</a><span class="token operator">&gt;</span></div></div></div>
                 </div>
               </div>
             </div>
@@ -235,7 +250,22 @@
       </div>
       <div data-togglable="FUNCTION">
         <h2 class="">Functions</h2>
-        <div class="table"><a data-name="313123879%2FFunctions%2F66091928" anchor-label="changeStoryState" id="313123879%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+        <div class="table"><a data-name="-1785035356%2FFunctions%2F66091928" anchor-label="cancelSelection" id="-1785035356%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="cancel-selection.html"><span>cancel</span><wbr><span><span>Selection</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1785035356%2FFunctions%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="cancel-selection.html"><span class="token function">cancelSelection</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Cancels the current selection.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="313123879%2FFunctions%2F66091928" anchor-label="changeStoryState" id="313123879%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
           <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
@@ -246,21 +276,6 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="change-story-state.html"><span class="token function">changeStoryState</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">stateChange<span class="token operator">: </span><a href="../../../writeopia/io.writeopia.sdk.model.action/-action/-story-state-change/index.html">Action.StoryStateChange</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">At the moment it is only possible to check items not inside groups. Todo: Fix it!</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-315112997%2FFunctions%2F66091928" anchor-label="changeStoryText" id="-315112997%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
-          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="change-story-text.html"><span>change</span><wbr><span>Story</span><wbr><span><span>Text</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-315112997%2FFunctions%2F66091928"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="change-story-text.html"><span class="token function">changeStoryText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">stateChange<span class="token operator">: </span><a href="../../../writeopia/io.writeopia.sdk.model.action/-action/-story-state-change/index.html">Action.StoryStateChange</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">At the moment it is only possible to check items not inside groups. Todo: Fix it!</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -306,6 +321,21 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="delete-selection.html"><span class="token function">deleteSelection</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Deletes the whole selection. All <a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a> in the selection will be deleted.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1526627340%2FFunctions%2F66091928" anchor-label="handleTextInput" id="1526627340%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="handle-text-input.html"><span>handle</span><wbr><span>Text</span><wbr><span><span>Input</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1526627340%2FFunctions%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="handle-text-input.html"><span class="token function">handleTextInput</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">input<span class="token operator">: </span><a href="../../io.writeopia.ui.model/-text-input/index.html">TextInput</a><span class="token punctuation">, </span></span><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">lineBreakByContent<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div></div></div>
                 </div>
               </div>
             </div>
@@ -385,6 +415,36 @@
               </div>
             </div>
           </div>
+<a data-name="844186170%2FFunctions%2F66091928" anchor-label="moveToNext" id="844186170%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="move-to-next.html"><span>move</span><wbr><span>To</span><wbr><span><span>Next</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="844186170%2FFunctions%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="move-to-next.html"><span class="token function">moveToNext</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">cursor<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">positions<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">1</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1840254786%2FFunctions%2F66091928" anchor-label="moveToPrevious" id="-1840254786%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="move-to-previous.html"><span>move</span><wbr><span>To</span><wbr><span><span>Previous</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1840254786%2FFunctions%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="move-to-previous.html"><span class="token function">moveToPrevious</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">cursor<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">positions<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">1</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
 <a data-name="-1977236699%2FFunctions%2F66091928" anchor-label="newStory" id="-1977236699%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
           <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
             <div class="main-subrow keyValue ">
@@ -460,6 +520,51 @@
               </div>
             </div>
           </div>
+<a data-name="-1790907829%2FFunctions%2F66091928" anchor-label="onDragHover" id="-1790907829%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-drag-hover.html"><span>on</span><wbr><span>Drag</span><wbr><span><span>Hover</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1790907829%2FFunctions%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="on-drag-hover.html"><span class="token function">onDragHover</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1367879815%2FFunctions%2F66091928" anchor-label="onDragStart" id="1367879815%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-drag-start.html"><span>on</span><wbr><span>Drag</span><wbr><span><span>Start</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1367879815%2FFunctions%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="on-drag-start.html"><span class="token function">onDragStart</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-877218417%2FFunctions%2F66091928" anchor-label="onDragStop" id="-877218417%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-drag-stop.html"><span>on</span><wbr><span>Drag</span><wbr><span><span>Stop</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-877218417%2FFunctions%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="on-drag-stop.html"><span class="token function">onDragStop</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
 <a data-name="-411703155%2FFunctions%2F66091928" anchor-label="onErase" id="-411703155%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
           <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
             <div class="main-subrow keyValue ">
@@ -486,6 +591,21 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="on-focus-change.html"><span class="token function">onFocusChange</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">hasFocus<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1465170297%2FFunctions%2F66091928" anchor-label="onHighLightBlockClicked" id="-1465170297%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-high-light-block-clicked.html"><span>on</span><wbr><span>High</span><wbr><span>Light</span><wbr><span>Block</span><wbr><span><span>Clicked</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1465170297%2FFunctions%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="on-high-light-block-clicked.html"><span class="token function">onHighLightBlockClicked</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
                 </div>
               </div>
             </div>
@@ -550,6 +670,21 @@
               </div>
             </div>
           </div>
+<a data-name="2124546821%2FFunctions%2F66091928" anchor-label="removeTags" id="2124546821%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="remove-tags.html"><span>remove</span><wbr><span><span>Tags</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2124546821%2FFunctions%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="remove-tags.html"><span class="token function">removeTags</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
 <a data-name="676771056%2FFunctions%2F66091928" anchor-label="saveOnStoryChanges" id="676771056%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
           <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
             <div class="main-subrow keyValue ">
@@ -565,6 +700,21 @@
               </div>
             </div>
           </div>
+<a data-name="-1351314034%2FFunctions%2F66091928" anchor-label="toggleCollapseItem" id="-1351314034%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="toggle-collapse-item.html"><span>toggle</span><wbr><span>Collapse</span><wbr><span><span>Item</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1351314034%2FFunctions%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="toggle-collapse-item.html"><span class="token function">toggleCollapseItem</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
 <a data-name="-290918372%2FFunctions%2F66091928" anchor-label="toggleSelection" id="-290918372%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
           <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
             <div class="main-subrow keyValue ">
@@ -576,6 +726,21 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="toggle-selection.html"><span class="token function">toggleSelection</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1405165624%2FFunctions%2F66091928" anchor-label="toggleTagForPosition" id="-1405165624%2FFunctions%2F66091928" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia_ui:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia_ui:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="toggle-tag-for-position.html"><span>toggle</span><wbr><span>Tag</span><wbr><span>For</span><wbr><span><span>Position</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1405165624%2FFunctions%2F66091928"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia_ui:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="toggle-tag-for-position.html"><span class="token function">toggleTagForPosition</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">tag<span class="token operator">: </span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-tag-info/index.html">TagInfo</a><span class="token punctuation">, </span></span><span class="parameter ">commandInfo<span class="token operator">: </span><a href="../../../writeopia_models/io.writeopia.sdk.models.command/-command-info/index.html">CommandInfo</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
                 </div>
               </div>
             </div>
@@ -601,7 +766,7 @@
   </div>
 </div>
       <div class="footer">
-        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2025 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
       </div>
             </div>
         </div>
