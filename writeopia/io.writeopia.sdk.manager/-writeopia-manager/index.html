@@ -1,0 +1,322 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>WriteopiaManager</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            Writeopia
+                    </a>            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector common-like" data-active="" data-filter=":writeopia:dokkaHtmlPartial/commonMain">common</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="writeopia::io.writeopia.sdk.manager/WriteopiaManager///PointingToDeclaration//166039565">
+  <div class="breadcrumbs"><a href="../../index.html">writeopia</a><span class="delimiter">/</span><a href="../index.html">io.writeopia.sdk.manager</a><span class="delimiter">/</span><span class="current">WriteopiaManager</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Writeopia</span><wbr><span><span>Manager</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">WriteopiaManager</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">stepsNormalizer<span class="token operator">: </span><a href="../../io.writeopia.sdk.utils.alias/-units-normalization-map/index.html">UnitsNormalizationMap</a><span class="token operator"> = </span>StepsMapNormalizationBuilder.reduceNormalizations {
+            defaultNormalizers()
+        }<span class="token punctuation">, </span></span><span class="parameter ">movementHandler<span class="token operator">: </span><a href="../-movement-handler/index.html">MovementHandler</a><span class="token operator"> = </span>MovementHandler()<span class="token punctuation">, </span></span><span class="parameter ">contentHandler<span class="token operator">: </span><a href="../-content-handler/index.html">ContentHandler</a><span class="token operator"> = </span>ContentHandler(
+        stepsNormalizer = stepsNormalizer
+    )<span class="token punctuation">, </span></span><span class="parameter ">focusHandler<span class="token operator">: </span><a href="../-focus-handler/index.html">FocusHandler</a><span class="token operator"> = </span>FocusHandler()</span></span><span class="token punctuation">)</span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1366801986%2FConstructors%2F166039565" anchor-label="WriteopiaManager" id="1366801986%2FConstructors%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-writeopia-manager.html"><span>Writeopia</span><wbr><span><span>Manager</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1366801986%2FConstructors%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">stepsNormalizer<span class="token operator">: </span><a href="../../io.writeopia.sdk.utils.alias/-units-normalization-map/index.html">UnitsNormalizationMap</a><span class="token operator"> = </span>StepsMapNormalizationBuilder.reduceNormalizations {
+            defaultNormalizers()
+        }<span class="token punctuation">, </span></span><span class="parameter ">movementHandler<span class="token operator">: </span><a href="../-movement-handler/index.html">MovementHandler</a><span class="token operator"> = </span>MovementHandler()<span class="token punctuation">, </span></span><span class="parameter ">contentHandler<span class="token operator">: </span><a href="../-content-handler/index.html">ContentHandler</a><span class="token operator"> = </span>ContentHandler(
+        stepsNormalizer = stepsNormalizer
+    )<span class="token punctuation">, </span></span><span class="parameter ">focusHandler<span class="token operator">: </span><a href="../-focus-handler/index.html">FocusHandler</a><span class="token operator"> = </span>FocusHandler()</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-435284221%2FFunctions%2F166039565" anchor-label="bulkDelete" id="-435284221%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="bulk-delete.html"><span>bulk</span><wbr><span><span>Delete</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-435284221%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="bulk-delete.html"><span class="token function">bulkDelete</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">positions<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">stories<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Deletes the whole selection. All <a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a> in the selection will be deleted.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1639634539%2FFunctions%2F166039565" anchor-label="changeStoryState" id="1639634539%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="change-story-state.html"><span>change</span><wbr><span>Story</span><wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1639634539%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="change-story-state.html"><span class="token function">changeStoryState</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">stateChange<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.action/-action/-story-state-change/index.html">Action.StoryStateChange</a><span class="token punctuation">, </span></span><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Changes the state of a story step based of the stateChange</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1313921317%2FFunctions%2F166039565" anchor-label="changeStoryType" id="-1313921317%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="change-story-type.html"><span>change</span><wbr><span>Story</span><wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1313921317%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="change-story-type.html"><span class="token function">changeStoryType</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">typeInfo<span class="token operator">: </span><a href="../../../writeopia_models/io.writeopia.sdk.models.command/-type-info/index.html">TypeInfo</a><span class="token punctuation">, </span></span><span class="parameter ">commandInfo<span class="token operator">: </span><a href="../../../writeopia_models/io.writeopia.sdk.models.command/-command-info/index.html">CommandInfo</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></div><div class="brief "><p class="paragraph">Changes the story type. The type of a messages changes without changing the content of it. Commands normally change the type of a message. From a message to a unordered list item, for example.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-498175554%2FFunctions%2F166039565" anchor-label="collapseItem" id="-498175554%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="collapse-item.html"><span>collapse</span><wbr><span><span>Item</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-498175554%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="collapse-item.html"><span class="token function">collapseItem</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a><span class="token punctuation">, </span></span><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1171680689%2FFunctions%2F166039565" anchor-label="expandItem" id="1171680689%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="expand-item.html"><span>expand</span><wbr><span><span>Item</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1171680689%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="expand-item.html"><span class="token function">expandItem</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a><span class="token punctuation">, </span></span><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1161262326%2FFunctions%2F166039565" anchor-label="mergeRequest" id="1161262326%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="merge-request.html"><span>merge</span><wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1161262326%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="merge-request.html"><span class="token function">mergeRequest</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">info<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.action/-action/-merge/index.html">Action.Merge</a><span class="token punctuation">, </span></span><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></div><div class="brief "><p class="paragraph">Merges two <a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a> into a group. This can be used to merge two images into a message group or any other kind of group.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="597399614%2FFunctions%2F166039565" anchor-label="moveRequest" id="597399614%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="move-request.html"><span>move</span><wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="597399614%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="move-request.html"><span class="token function">moveRequest</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">move<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.action/-action/-bulk-move/index.html">Action.BulkMove</a><span class="token punctuation">, </span></span><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="move-request.html"><span class="token function">moveRequest</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">move<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.action/-action/-move/index.html">Action.Move</a><span class="token punctuation">, </span></span><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></div><div class="brief "><p class="paragraph">A request to move a content to a position.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1612813548%2FFunctions%2F166039565" anchor-label="newStory" id="1612813548%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="new-story.html"><span>new</span><wbr><span><span>Story</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1612813548%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="new-story.html"><span class="token function">newStory</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">documentId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span>GenerateId.generate()<span class="token punctuation">, </span></span><span class="parameter ">title<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span><span class="token string">""</span><span class="token punctuation">, </span></span><span class="parameter ">parentFolder<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span><span class="token string">"root"</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="../../io.writeopia.sdk.model.document/-document-info/index.html">DocumentInfo</a><span class="token punctuation">, </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="609302007%2FFunctions%2F166039565" anchor-label="nextFocusOrCreate" id="609302007%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="next-focus-or-create.html"><span>next</span><wbr><span>Focus</span><wbr><span>Or</span><wbr><span><span>Create</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="609302007%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="next-focus-or-create.html"><span class="token function">nextFocusOrCreate</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">cursor<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></div><div class="brief "><p class="paragraph">Moves the focus to the next available <a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a> if it can't find a step to focus, it creates a new <a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a> at the end of the document.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-236421999%2FFunctions%2F166039565" anchor-label="onDelete" id="-236421999%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-delete.html"><span>on</span><wbr><span><span>Delete</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-236421999%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="on-delete.html"><span class="token function">onDelete</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">deleteStory<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.action/-action/-delete-story/index.html">Action.DeleteStory</a><span class="token punctuation">, </span></span><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Deletes a <a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a></p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1636978327%2FFunctions%2F166039565" anchor-label="onErase" id="1636978327%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-erase.html"><span>on</span><wbr><span><span>Erase</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1636978327%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="on-erase.html"><span class="token function">onErase</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">deleteStory<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.action/-action/-erase-story/index.html">Action.EraseStory</a><span class="token punctuation">, </span></span><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></div><div class="brief "><p class="paragraph">Erases a <a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a></p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="519087610%2FFunctions%2F166039565" anchor-label="onLineBreak" id="519087610%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-line-break.html"><span>on</span><wbr><span>Line</span><wbr><span><span>Break</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="519087610%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="on-line-break.html"><span class="token function">onLineBreak</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">lineBreak<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.action/-action/-line-break/index.html">Action.LineBreak</a><span class="token punctuation">, </span></span><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Creates a line break. When a line break happens, the line it divided into two <a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a>s of the same, if possible, or the next line will be a Message.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1164396841%2FFunctions%2F166039565" anchor-label="previousTextStory" id="-1164396841%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="previous-text-story.html"><span>previous</span><wbr><span>Text</span><wbr><span><span>Story</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1164396841%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="previous-text-story.html"><span class="token function">previousTextStory</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">storyMap<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="../../../writeopia_models/io.writeopia.sdk.models.story/-story-step/index.html">StoryStep</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt;</span><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="471870927%2FFunctions%2F166039565" anchor-label="removeTags" id="471870927%2FFunctions%2F166039565" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain"></a>
+          <div class="table-row" data-filterable-current=":writeopia:dokkaHtmlPartial/commonMain" data-filterable-set=":writeopia:dokkaHtmlPartial/commonMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="remove-tags.html"><span>remove</span><wbr><span><span>Tags</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="471870927%2FFunctions%2F166039565"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":writeopia:dokkaHtmlPartial/commonMain"><div class="symbol monospace"><span class="token keyword">fun </span><a href="remove-tags.html"><span class="token function">removeTags</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">storyState<span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../io.writeopia.sdk.model.story/-story-state/index.html">StoryState</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2025 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
